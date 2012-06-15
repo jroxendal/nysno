@@ -36,7 +36,7 @@
   };
 
   $(function() {
-    c.log("starting");
+    c.log("starting up");
     $("#content form").submit(function() {
       c.log("submit");
       return false;

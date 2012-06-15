@@ -13,7 +13,7 @@ nameIdentifier = (text) ->
 	(\s 
 		([A-ZÅÖÄ])*
 		(\.)*
-		(\s)*  
+		(\s)*   
 		[A-ZÅÖÄ] 
 		\w+
 	)*)
@@ -36,7 +36,7 @@ nameIdentifier = (text) ->
 	
 	
 $ ->
-	c.log "starting"
+	c.log "starting up"
 	
 	$("#content form").submit ->
 		c.log "submit"
