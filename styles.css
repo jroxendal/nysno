@@ -1,0 +1,82 @@
+
+html {
+	background: #b5c1cc; /* Old browsers */
+	background: -moz-radial-gradient(center, ellipse cover, #b5c1cc 0%, #5d83a0 100%); /* FF3.6+ */
+	background: -webkit-gradient(radial, center center, 0px, center center, 100%, color-stop(0%,#b5c1cc), color-stop(100%,#5d83a0)); /* Chrome,Safari4+ */
+	background: -webkit-radial-gradient(center, ellipse cover, #b5c1cc 0%,#5d83a0 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-radial-gradient(center, ellipse cover, #b5c1cc 0%,#5d83a0 100%); /* Opera 12+ */
+	background: -ms-radial-gradient(center, ellipse cover, #b5c1cc 0%,#5d83a0 100%); /* IE10+ */
+	background: radial-gradient(center, ellipse cover, #b5c1cc 0%,#5d83a0 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5c1cc', endColorstr='#5d83a0',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+	height : 100%;
+}
+
+body {
+	background-color : white;
+	font-size : 14px;
+	max-width : 975px;
+	min-width : 400px;
+	width : 100%;
+	min-height : 100%;
+	margin : 8px auto;
+	padding : 15px;
+	font-family : Helvetica sans-serif;
+}
+
+
+h1 {
+	font-size : 3.5em;
+	font-family: 'Love Ya Like A Sister', cursive;
+	text-align: center;
+}
+
+h1:first-letter {
+	font-size : 1.3em;	
+}
+
+#header {
+	padding : 15px;
+	margin-bottom : 1em;
+}
+
+
+[type=submit] {
+	display : block;
+	float : right;
+}
+
+#content {
+}
+
+#content form {
+	width : 80%;
+	margin : 0 auto;
+	max-width : 500px;
+}
+#content textarea {
+	width : 100%;
+	font-family : inherit;
+}
+
+#remote,iframe {
+	height : 93%;
+}
+iframe {
+	width : 101%;
+}
+
+ruby img {
+	width : 100px;
+	height : 100px;
+	border : solid thin grey;
+	display : block;
+}
+ruby rt {
+	text-align: center;
+}
+
+
+.ui-corner-all, .ui-corner-top, .ui-corner-left, .ui-corner-tl { -moz-border-radius-topleft: 2px/*{cornerRadius}*/; -webkit-border-top-left-radius: 2px/*{cornerRadius}*/; -khtml-border-top-left-radius: 2px/*{cornerRadius}*/; border-top-left-radius: 2px/*{cornerRadius}*/; }
+.ui-corner-all, .ui-corner-top, .ui-corner-right, .ui-corner-tr { -moz-border-radius-topright: 2px/*{cornerRadius}*/; -webkit-border-top-right-radius: 2px/*{cornerRadius}*/; -khtml-border-top-right-radius: 2px/*{cornerRadius}*/; border-top-right-radius: 2px/*{cornerRadius}*/; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-left, .ui-corner-bl { -moz-border-radius-bottomleft: 2px/*{cornerRadius}*/; -webkit-border-bottom-left-radius: 2px/*{cornerRadius}*/; -khtml-border-bottom-left-radius: 2px/*{cornerRadius}*/; border-bottom-left-radius: 2px/*{cornerRadius}*/; }
+.ui-corner-all, .ui-corner-bottom, .ui-corner-right, .ui-corner-br { -moz-border-radius-bottomright: 2px/*{cornerRadius}*/; -webkit-border-bottom-right-radius: 2px/*{cornerRadius}*/; -khtml-border-bottom-right-radius: 2px/*{cornerRadius}*/; border-bottom-right-radius: 2px/*{cornerRadius}*/; }

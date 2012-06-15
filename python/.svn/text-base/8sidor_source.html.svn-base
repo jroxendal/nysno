@@ -1,0 +1,89 @@
+<html xmlns:flowserver="www.flowserver.net"><head><META http-equiv="Content-Type" content="text/html; charset=utf-8"><meta name="Creator" Content="Kiara AB - www.kiara.se"><meta name="DESCRIPTION" lang="se" content="8 SIDOR ger dig aktuella nyheter på lättläst svenska. Läs dagens nyheter på webben och prenumerera."><meta name="KEYWORDS" lang="se" content="8sidor, nyheter, lättlästa, aktuell, skola, lässvårigheter, lätt, lättläst"><meta name="vs_targetSchema" content="http://schemas.microsoft.com/intellisense/ie5"><meta name="vs_defaultClientScript" content="JavaScript"><meta name="GENERATOR" content="Microsoft Visual Studio.NET 7.0"><meta name="ProgId" content="VisualStudio.HTML"><meta name="Originator" content="Microsoft Visual Studio.NET 7.0"><meta http-equiv="expires" content="Sun, 01 Dec 2001 12:00:00 EST"><title>8 Sidor - Artikel</title><link rel="shortcut icon" href="../uppladdat/favicon_8s.ico"><link rel="stylesheet" href="css/8sidor.css" type="text/css"><script language="JavaScript" src="scripts/8sidor.js"></script><script type="text/javascript">
+			var _flowServiceId = '7';
+			var _flowCompanyId = '1';
+			var _flowLanguage = 'swe';
+			var _flowObjectId = '7327';
+			var _flowPageId = '55';
+			var _flowPageName = 'Artikel';
+			var _flowPageView = '';
+			var _flowEdit = false;
+			</script><script language="JavaScript">
+				var b = new browserObject();
+				writeBrowser();
+
+				function init() {
+					if ((b.alias == "IE") && (b.version >= 4)) {
+						document.onmouseover = handleOver;
+						document.onmouseout = handleOut;
+						document.onclick = handleClick;
+					}
+					else if ((b.alias == "NS") && (b.version >= 5)) {
+						document.onmouseover = handleOver;
+					}
+				}
+
+				window.onload = init;
+			</script></head><body scroll="yes" bgcolor="#FFFFFF" marginwidth="0" marginheight="0" leftmargin="0" topmargin="0"><p align="center"><table id="tblCenter" cellpadding="0" cellspacing="0" border="0"><tr><td><div id="divContents"><table cellpadding="0" cellspacing="0" border="0"><tr><td height="138" colspan="8"><div id="divLogo"><a href="/?page=42" title="Gå till 8 SIDORs startsida"><img src="images/8sidor_logo.gif" border="0" alt="Gå till 8 SIDORs startsida"></a></div><div id="divLinkLL"><nobr><a href="http://www.lattlast.se" title="Till Centrum för lättläst">Till Centrum för lättläst <img src="/images/arrow_yellow.gif" border="0" align="absmiddle"></a></nobr></div><div id="divMenu"><table border="0" cellpadding="0" cellspacing="1" class="tblMenu" id="tblMenu"><tr><td bgcolor="#FFFFFF" nowrap="true"><div class="menuItem" id="divMenu42"><a href="/?page=42" title="Dagens lättlästa nyheter">Dagens lättlästa nyheter</a></div></td><td bgcolor="#FFFFFF" nowrap="true"><div class="menuItem" id="divMenu57"><a href="/?page=57" title="Prenumerera på 8 SIDOR">Prenumerera på 8 SIDOR</a></div></td><td bgcolor="#FFFFFF" nowrap="true"><div class="menuItem" id="divMenu68"><a href="/?page=68" title="Bonuswebben">Bonuswebben</a></div></td><td bgcolor="#FFFFFF" width="100%"> </td><td bgcolor="#FFFFFF" nowrap="true" class="ISI_REMOVE"><div class="menuItem"><a href="http://isi.phoneticom.com/cgi-bin/8sidorrsnav?" title="Lyssna på sidans text"><img src="images/ear.gif" align="absmiddle" border="0" alt="Lyssna på sidans text">Lyssna</a></div></td><td bgcolor="#FFFFFF" nowrap="true"><div class="menuItem"><a href="/?page=167" title="Anpassa sidan sidans utseende"><img src="images/font.gif" align="absmiddle" border="0" alt="Anpassa sidan sidans utseende">Anpassa sidan</a></div></td></tr></table></div></td></tr><tr><td bgcolor="#000000" width="1" rowspan="4"><img src="images/pixel.gif" width="1" height="1"></td><td bgcolor="#000000" height="22" nowrap="true" colspan="6"><div id="divBreadCrumbs"><nobr><a href="/?page=42">Dagens lättlästa nyheter</a> &gt; Artikel
+					 
+				</nobr></div></td><td bgcolor="#000000" width="1" rowspan="4"><img src="images/pixel.gif" width="1" height="1"></td></tr><tr><td width="185" bgcolor="#ffe614" valign="top"><div id="divNavigation"><div class="navItemTop">INNEHÅLL PÅ WEBBEN</div><img src="images/pixel.gif" width="1" height="7"><br><div class="navItem"><a href="/?page=42">Dagens lättlästa nyheter</a></div><div class="navItem"><a href="/?page=56">Leta efter gamla artiklar från 8sidor.se</a></div><div class="navItem"><a href="/?page=57">Prenumerera på 8 SIDOR</a></div><div class="navItem"><a href="/?page=58">Om 8 SIDOR</a></div><div class="navItem"><a href="/?page=59">Vi skriver i 8 SIDOR</a></div><div class="navItem"><a href="/?page=60">Annonsera i 8 SIDOR.</a></div><div class="navItem"><a href="/?page=61">Prova 8 SIDOR</a></div><div class="navItem"><a href="/?page=62">Från utgivaren</a></div><div class="navItem"><a href="/?page=68">Bonuswebben</a></div><div class="navItem"><a href="/?page=239">8 SIDORs skriftserie</a></div><div class="navItem"><a href="/?page=254">Översikt</a></div></div><div id="divNavBottom"><div class="padding10"><strong>8 SIDOR för lärare</strong><br /><img hspace="4" src="/images/arrow_yellow.gif" align="absMiddle" border="0" /> <a href="/?page=537">Instuderingsfrågor till 8 SIDOR, lektionstips m.m.</a><br /><img hspace="4" src="/images/arrow_yellow.gif" align="absMiddle" border="0" /> <a href="http://www.lattlast.se/?page=448">Lärarrummet för lättläst</a></div><hr /><div class="padding10"><strong>8 SIDORs multimedia</strong> <br /><img hspace="4" src="/images/arrow_yellow.gif" align="absMiddle" border="0" /><a href="/?page=444">Bild- och ljudspel om regeringen och de politiska partierna.</a><br /><img hspace="4" src="/images/arrow_yellow.gif" align="absMiddle" border="0" /><a href="/?page=515">Bildreportage</a></div><hr /><div class="padding10"><strong>8 SIDORS skriftserie: <br /><img hspace="4" src="/images/arrow_yellow.gif" align="absMiddle" border="0" />Korsord 2 <br /><img hspace="4" src="/images/arrow_yellow.gif" align="absMiddle" border="0" />Krönikor <br /><img hspace="4" src="/images/arrow_yellow.gif" align="absMiddle" border="0" />Tidningsskola <br /><img hspace="4" src="/images/arrow_yellow.gif" align="absMiddle" border="0" />Lärartips<br /></strong><a href="/default.aspx?page=239" target="">Läs mer och beställ!</a></div><a href="http://www.lattlast.se/larare" target="_blank"></a><hr /><div class="padding10"><strong>8 SIDORs redaktion </strong><br />Box 9145 <br />102 72 Stockholm <br />telefon 08-640 70 90 <br />telefax 08-642 76 00 <br /><a href="mailto:8sidor@8sidor.se">8sidor@8sidor.se</a> </div><hr /><div class="padding10"><strong>8 SIDORs kundtjänst </strong><br />Pressdata <br />Box 3263 <br />103 65 Stockholm <br />telefon 08-799 63 12 <br />telefax 08-98 45 72<br /><a href="mailto:8sidor@pressdata.se" target="">8sidor@pressdata.se</a></div></div><br><img src="images/pixel.gif" width="185" height="1"></td><td width="1" bgcolor="#000000"><img src="images/pixel.gif" width="1" height="1"></td><td width="19"><img src="images/pixel.gif" width="19" height="1"></td><td xwidth="555" valign="top"><div id="divHeader">Artikel</div><div id="divPrint"><a href="javascript:printPage()" title="Skriv ut sidan"><img src="images/print.gif" border="0" align="absmiddle" hspace="5" alt="Skriv ut sidan"><nobr>Skriv ut</nobr></a></div><img src="images/pixel.gif" width="1" height="55"><br><table border="0" cellpadding="0" cellspacing="0" height="400" class="tblPage"><tr><td width="356" bgcolor="#FFFFFF" valign="top"><h4>Rödeby-mannen dömdes 
+
+<br>men slipper straff</h4><p>En höstkväll förra året blev en 15-årig 
+<br>pojke dödad i Rödeby i Blekinge.
+<br>Det var en 51-årig man som höll i geväret. 
+<br>Mannen sköt pojken i bröstet 
+<br>från några meters håll. 
+<br>Han sköt också en 17-årig pojke 
+<br>och skadade honom svårt.
+<br>Mannen sköt, laddade om 
+<br>och sköt igen.
+<br>
+<br>I den första rättegången i tingsrätten friades mannen. 
+<br>Han slapp sitta i fängelse och dömdes inte 
+<br>heller till psykiatrisk vård.
+<br>Tingsrätten sade att 51-åringen var så psykisk sjuk 
+<br>att han inte visste vad han gjorde 
+<br>när han sköt mot pojkarna. 
+
+<br>Därför kunde han inte dömas för brott.
+<br>Mannen fick tillbaka sitt gevär och kunde åka hem.
+<br>
+<br>Nu har det varit en ny rättegång i hovrätten.
+<br>Hovrätten ändrade tingsrättens dom 
+<br>och dömer den 51-årige mannen 
+<br>för dråp och grov misshandel.
+<br>Men även nu slipper 51-åringen straff.
+<br>
+<br>Mannen måste betala pengar 
+<br>i skadestånd till den skadade 17-åringen 
+<br>och den dödade 15-åringens familj.
+<br>
+<br>– Jag är nöjd med att mannen döms.
+<br>Men jag tycker att det är fel 
+<br>att man kan döda en människa 
+<br>och ändå slippa straff, 
+
+<br>säger åklagaren Tommy Clevenhult.
+<br>
+<br>Pojkarna som blev skjutna av 51-åringen 
+<br>var med i ett gäng som förföljt och 
+<br>hotat 51-åringen flera gånger.
+<br>Han har sagt att han kände sig hotad 
+<br>till livet när gänget dök upp 
+<br>vid hans hus den här kvällen.
+<br>
+<br></p>
+
+Publicerad: 2008-11-21<br><br><a href="/?page=76&amp;category=2&amp;header=Nyheter fr%C3%A5n Sverige"><img src="/images/arrow_yellow.gif" border="0" align="absmiddle" hspace="4">Läs mer om Nyheter från Sverige</a><br><br></td><td width="10"><img src="images/pixel.gif" width="10" height="1"></td><td width="189" valign="top"><div><div class="h4">Nyheter från Sverige</div><div class="divLink"><a href="/?page=55&amp;articleid=8422&amp;category=2"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Riksdagen röstade ja 
+till nya EU-regler</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8421&amp;category=2"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Rödeby-mannen dömdes 
+men slipper straff</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8420&amp;category=2"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Norge vill inte köpa svenskt plan</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8419&amp;category=2"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Svensk kvinna födde barn 
+i flygplan</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8418&amp;category=2"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Präst är ett säkert jobb</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8415&amp;category=2"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Lasse Kronér tar hand 
+om julen i rutan</a></div><div class="divLink"><a href="/?page=76&amp;category=2&amp;header=Nyheter fr%C3%A5n Sverige"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Fler Nyheter från Sverige</a></div></div><div><div class="h4">Senaste nyheterna från andra länder</div><div class="divLink"><a href="/?page=55&amp;articleid=8412&amp;category=3"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Bomb i Bangkok</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8411&amp;category=3"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Barn torteras i Nepal,
+säger HRW</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8410&amp;category=3"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Nytt fartyg attackerat 
+av pirater</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8393&amp;category=3"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Oljetanker kapad 
+av pirater utanför Kenya</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8390&amp;category=3"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Världens ledare är överens 
+om plan mot krisen
+
+</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8389&amp;category=3"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Islamisterna på väg 
+att ta makten i Somalia</a></div><div class="divLink"><a href="/?page=76&amp;category=3&amp;header=Senaste nyheterna fr%C3%A5n andra l%C3%A4nder"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Fler Senaste nyheterna från andra länder</a></div></div><div><div class="h4">Senaste sport-nyheterna</div><div class="divLink"><a href="/?page=55&amp;articleid=8414&amp;category=4"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Holland slog Sverige i fotboll</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8407&amp;category=4"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Bra lottning för Sverige 
+i fotbolls-EM</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8394&amp;category=4"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Nu är Zlatan störst</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8392&amp;category=4"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Pietilä Holmner 
+blev tvåa i slalom</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8376&amp;category=4"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Tränare slutar efter hot</a></div><div class="divLink"><a href="/?page=55&amp;articleid=8374&amp;category=4"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Henke tränar innebandy</a></div><div class="divLink"><a href="/?page=76&amp;category=4&amp;header=Senaste sport-nyheterna"><img src="images/arrow_yellow.gif" border="0" align="absmiddle" hspace="3" alt="">Fler Senaste sport-nyheterna</a></div></div><br><img src="images/pixel.gif" width="189" height="1"></td></tr></table><table cellpadding="0" cellspacing="0" border="0" width="100%" height="30"><tr><td nowrap="true"><a href="javascript:self.history.go(-1)" title="Gå tillbaka till föregående sida"><img src="images/back.gif" border="0" hspace="5" align="absmiddle" alt="Gå tillbaka till föregående sida">Tillbaka</a></td><td align="right" nowrap="true"><a href="#" title="Gå till sidans topp"><img src="images/up.gif" border="0" hspace="5" align="absmiddle" alt="Gå till sidans topp">Till sidans topp</a>   </td></tr></table><br></td></tr><tr><td bgcolor="#000000" colspan="6"><img src="images/pixel.gif" width="1" height="1"></td></tr></table><br></div></td></tr></table></p></body></html>
