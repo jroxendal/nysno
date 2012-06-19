@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>TBA</title>
+<title>Nysnö</title>
 
 <link href="reset.css" type="text/css" rel="stylesheet" />
 <link href="styles.css" type="text/css" rel="stylesheet" />
@@ -20,25 +20,35 @@
 	<h1>NYSNÖ</h1>
 </div>
 
-<!-- <div id="remote">  -->
-<!-- 	<iframe src="http://localhost/cgi-bin/proxy.py"></iframe> -->
-<!-- </div> -->
 
-<div id="content">
-	<form>
-		<textarea rows="15"></textarea>
-		<input type="submit" value="Översätt">
-	</form>
-	
-	
-	<div id="result">
-		<ruby>
-			<rt><img src="/bliss/bliss_h1000_svg/a,an,any.svg"></rt>
-			<rb>a,an,any</rb>
-		</ruby>
+<div id="flip">
+
+<div class="front">
+	<div id="content">
+		<form>
+			<textarea rows="15"></textarea>
+			<input type="submit" value="Översätt">
+		</form>
+		
+		
+		<div id="result">
+	<!-- 		<ruby> -->
+	<!-- 			<rt><img src="/bliss/bliss_h1000_svg/a,an,any.svg"></rt> -->
+	<!-- 			<rb>a,an,any</rb> -->
+	<!-- 		</ruby> -->
+		</div>
+		
 	</div>
-	
 </div>
+<div class="back">
+	<div id="remote"> 
+		<iframe src="http://localhost/cgi-bin/proxy.py"></iframe>
+	</div>
+
+</div>
+
+</div>
+
 
 <div id="footer"></div>
 </body>
