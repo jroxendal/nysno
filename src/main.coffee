@@ -4,7 +4,7 @@ c = console ? log : $.noop
 
 
 nameIdentifier = (text) ->
-       re = ///
+    re = ///
     ([A-ZÅÖÄ]
     \w+
     (\s 
@@ -15,7 +15,6 @@ nameIdentifier = (text) ->
         \w+
     )*)
     ///g 
-    
     textArray = text.split("")
     modify = (match) ->
         start = match.index
@@ -31,8 +30,19 @@ nameIdentifier = (text) ->
         
     
     
-    return textArray.join("")
-    
+    return textArray.join("") 
+
+
+makeRequest = ->
+    $.ajax 
+        url : "http://spraakbanken.gu.se/ws/korp"
+        data :
+            corpus : "ATTASIDOR"
+            cqp : "<sentence> []"
+            start : 0
+            end : 999
+            show : "pos,lex"
+
     
 $ ->
     c.log "starting up"
@@ -40,6 +50,14 @@ $ ->
     $("#content form").submit ->
         c.log "submit"
         false
+    
+    $("body").bind "keydown", (event) =>
+        if event.which == 27 then $("#flip").removeClass("flipped")        
+    
+    $("#get_article").click ->
+        $("#flip").addClass("flipped")
+        
+    makeRequest()
     
     c.log(nameIdentifier "this is a test for Finding Some words That Are Names.")
     
