@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Nysnö</title>
+
+<!--<link href="reset.css" type="text/css" rel="stylesheet" />-->
+<link href="build/style.css" type="text/css" rel="stylesheet" />
+<!-- <link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'> -->
+<script src="lib/jquery.js"></script>
+<script src="lib/jquery-ui-1.9pre.js"></script>
+<script src="lib/underscore.js"></script>
+
+<script src="build/main.js"></script>
+
+
+</head>
+
+%body
+  
+  #flip
+    .front
+      .header
+        %h1 NYSNÖ
+      #content
+        %form
+          %textarea(rows="15")
+          %input.send(type="submit" value="Översätt")
+          %input#get_article(type="submit" value="Hämta artikel")
+          
+        #result
+        
+    .back
+      .corner
+      #remote
+        %iframe{:src => "http://localhost/cgi-bin/proxy.py"}
+  #footer
+
+</html>
+ 
