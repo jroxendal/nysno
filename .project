@@ -22,7 +22,7 @@
 		</buildCommand>
 		<buildCommand>
 			<name>org.eclipse.ui.externaltools.ExternalToolBuilder</name>
-			<triggers>auto,full,incremental,</triggers>
+			<triggers>auto,full,</triggers>
 			<arguments>
 				<dictionary>
 					<key>LaunchConfigHandle</key>
@@ -50,7 +50,7 @@
 		<link>
 			<name>proxy.py</name>
 			<type>1</type>
-			<locationURI>PARENT-2-WORKSPACE_LOC/www/cgi-bin/proxy.py</locationURI>
+			<location>/Users/johan/www/cgi-bin/proxy.py</location>
 		</link>
 	</linkedResources>
 </projectDescription>

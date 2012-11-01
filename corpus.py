@@ -19,8 +19,8 @@ def fetchCorpus(num_sentences=0):
         "corpus" : "ATTASIDOR",
         "cqp" : "<sentence> []",
         "start" : 0,
-        "end" : num_sentences if num_sentences < 1000 else 999,
-        "show" : "pos,lex,prefix,suffix,msd"
+        "end" : (num_sentences or 999) if num_sentences < 1000 else 999,
+        "show" : "lex,prefix,suffix"
     }
     
     output = []
@@ -54,15 +54,15 @@ def countAmbiguities(tokens):
 
 
 if __name__ == '__main__':
-    corpus = fetchCorpus(100)
+    corpus = fetchCorpus(0)
+    print len(corpus)
+    # tokens = chain.from_iterable(map(lambda x: x["tokens"], corpus))
     
-    tokens = chain.from_iterable(map(lambda x: x["tokens"], corpus))
+    # d = imap(lambda x: (x["msd"], x["word"]), tokens)
     
-    d = imap(lambda x: (x["msd"], x["word"]), tokens)
-    
-    for msd, word in d:
-        if msd.startswith("PM"):
-            print word
+    # for msd, word in d:
+        # if msd.startswith("PM"):
+            # print word
     
     # d = imap(lambda x: (x["lex"], x["word"], x["prefix"], x["suffix"]), tokens)
     # print [x for x in d if x[2].strip("|") or x[3].strip("|")] 

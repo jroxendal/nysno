@@ -2,3 +2,6 @@ eclipse.preferences.version=1
 encoding//python/composition.py=utf-8
 encoding//python/name_database.py=utf-8
 encoding//python/snigl.py=utf-8
+encoding//src/index.haml=utf-8
+encoding/<project>=UTF-8
+encoding/lookup.py=utf-8

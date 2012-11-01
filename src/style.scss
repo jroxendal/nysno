@@ -120,3 +120,18 @@ h1:first-letter {
   opacity : .75;
   @include transition(opacity 1s)
 }
+
+#content {
+  background-color : white;
+}
+
+#result > div {
+  display : inline-block;
+  text-align : center;
+  margin-right : 2em;
+  margin-bottom : 1em;
+}
+
+img[src='bliss/'] {
+  display : none;
+}

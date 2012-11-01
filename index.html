@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta charset="UTF-8">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Nysnö</title>
 <!--<link href="reset.css" type="text/css" rel="stylesheet" />-->
 <link href="build/style.css" type="text/css" rel="stylesheet" />
-<!-- <link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'> -->
+<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
 <script src="lib/jquery.js"></script>
 <script src="lib/jquery-ui-1.9pre.js"></script>
 <script src="lib/underscore.js"></script>
+<script src="lib/jquery.tmpl.js"></script>
 <script src="build/main.js"></script>
 </head>
+f
 <body>
   <div id="flip">
     <div class="front">
@@ -22,6 +24,7 @@
           <textarea rows="15"></textarea>
           <input class="send" type="submit" value="Översätt" />
           <input id="get_article" type="submit" value="Hämta artikel" />
+          <div style="clear:both;"></div>
         </form>
         <div id="result"></div>
       </div>
@@ -29,10 +32,16 @@
     <div class="back">
       <div class="corner"></div>
       <div id="remote">
-        <iframe src="http://localhost/cgi-bin/proxy.py"></iframe>
+        <iframe src="http://mac12.svenska.gu.se/cgi-bin/proxy.py"></iframe>
       </div>
     </div>
   </div>
   <div id="footer"></div>
+  <script id="wordTmpl" type="text/x-jquery-tmpl">
+    <div>
+      <div><img src="bliss/${lemgram[0]}"></div>
+      <div>${word}</div>
+    </div>
+  </script>
 </body>
 </html>
