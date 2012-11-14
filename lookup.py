@@ -6,7 +6,12 @@ import json
 from pprint import pprint
 from urllib2 import urlopen
 from itertools import chain, imap, ifilter
-doc = etree.parse(open("wordnet.xml")).getroot()
+import os
+
+path = os.path.dirname(__file__)
+
+
+doc = etree.parse(open(path + "/wordnet.xml")).getroot()
 mapping = {}
 for sense in doc.getiterator("Sense"):
     formRepresentations = sense.getparent().xpath("./Lemma/FormRepresentation/feat[@att='synset']")
@@ -22,7 +27,8 @@ def getSynsetSafe(lemgramid):
         return synset 
     except:
         return None
-        
+
+
 if __name__ == '__main__':
 #    output = urlopen("http://spraakbanken.gu.se/ws/korp?" +
 #                         "corpus=ATTASIDOR&command=query&cqp=[lbound(sentence)]&start=0&end=999" +

@@ -44,14 +44,8 @@ def blissMixin(data):
     return parseKorpResult(data)
 
 
-def hello_world(environ, start_response):
-    status = '200 OK'
-    headers = [('Content-type', 'application/json'), ("Access-Control-Allow-Origin", "*")]
-    start_response(headers)
 
-    return ["hello world!"]
-
-def pipeline(environ, start_response):
+def application(environ, start_response):
     
     try:
         input = environ["wsgi.input"].read(int(environ["CONTENT_LENGTH"]))
@@ -61,7 +55,6 @@ def pipeline(environ, start_response):
     data = json.loads(unquote(input))
     output = blissMixin(data)
     try:
-        # output = run_pipeline(data)
         
         status = '200 OK'
         headers = [('Content-type', 'application/json'), ("Access-Control-Allow-Origin", "*")]
@@ -77,6 +70,6 @@ def pipeline(environ, start_response):
     
     
 if __name__ == '__main__':
-   httpd = make_server('minipro.local', 8000, pipeline)
+   httpd = make_server('', 8000, application)
    print "Serving on port 8000..."
    httpd.serve_forever()

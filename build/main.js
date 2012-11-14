@@ -6,7 +6,7 @@
     log: $.noop
   };
 
-  korp_url = "http://minipro.local:8000";
+  korp_url = "nysno.wsgi";
 
   $(function() {
     var _this = this;
