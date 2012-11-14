@@ -39,19 +39,19 @@
   });
 
   convertJSON = function(obj) {
-    var out, sentence, wd, x, _i, _j, _len, _len1, _ref, _ref1;
+    var out, sent, sentence, wd, x, _i, _j, _len, _len1, _ref;
     out = {
       kwic: []
     };
-    _ref = obj.sentence;
-    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
-      wd = _ref[_i];
+    sent = _.isArray(obj.sentence) ? obj.sentence : [obj.sentence];
+    for (_i = 0, _len = sent.length; _i < _len; _i++) {
+      wd = sent[_i];
       sentence = {
         tokens: []
       };
-      _ref1 = wd.w;
-      for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
-        x = _ref1[_j];
+      _ref = wd.w;
+      for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
+        x = _ref[_j];
         sentence.tokens.push($.extend({}, x));
       }
       out.kwic.push(sentence);
@@ -62,17 +62,20 @@
   window.get = function() {
     $("body").addClass("loading");
     return $.ajax({
-      url: "http://demo.spraakdata.gu.se/dan/pipeline/",
+      url: "http://demo.spraakdata.gu.se/dan/backend/",
       dataType: "text",
       timeout: 300000,
       type: "GET",
       data: {
         text: $("#content textarea").val(),
-        fmt: "xml",
-        incremental: false
+        settings: JSON.stringify({
+          attributes: "word,pos,prefix,suffix,lex".split(",")
+        })
       },
       success: function(xml, textStatus, xhr) {
         var korpJson;
+        c.log("xml2json", $.xml2json(xml));
+        window.xml = $.xml2json(xml);
         korpJson = convertJSON($.xml2json(xml));
         return $.ajax({
           url: korp_url,
