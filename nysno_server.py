@@ -10,9 +10,14 @@ from StringIO import StringIO
 from itertools import chain, imap, ifilter
 from urllib import unquote
 
+
+
 from lookup import getSynsetSafe
 from ccfconnect import CCFClient
 client = CCFClient("ccf.conceptcoding.org", 8899)
+
+# from find_fwords import wordToBliss
+
 
 
 def getBliss(wd):
@@ -31,11 +36,16 @@ def parseKorpResult(result):
     for struct in result["kwic"]:
         for token in struct["tokens"]:
             for attr in ["lex", "prefix", "suffix"]:
-                saldolist = ifilter(bool, token[attr].split("|"))
+                saldolist   = ifilter(bool, token[attr].split("|"))
                 wordnetlist = imap(getSynsetSafe, saldolist)
                 wordnetlist = chain.from_iterable(ifilter(bool, wordnetlist))
-                blisslist = imap(getBliss, wordnetlist)
-                blisslist = chain.from_iterable(ifilter(bool, blisslist))
+                blisslist   = imap(getBliss, wordnetlist)
+                blisslist   = chain.from_iterable(ifilter(bool, blisslist))
+
+                # if not blisslist:
+                #     wdlist = map(lambda x: x.split(".")[0], saldolist)
+                #     blisslist = map(wordToBliss, wdlist)
+
 
                 token[attr] = list(blisslist)
     return result
