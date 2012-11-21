@@ -1,20 +1,20 @@
 c = console ? log : $.noop
 
-korp_url = "nysno.wsgi"
+backend_url = "nysno.wsgi"
 
 $ ->
     c.log "starting up"
     $("#content form").submit(false)
     $("#content input.send").click ->
         get()
-        
-    
+
+
     $("body").bind "keydown", (event) =>
-        if event.which == 27 then $("#flip").removeClass("flipped")        
-    
+        if event.which == 27 then $("#flip").removeClass("flipped")
+
     $("#get_article").click ->
-        $("#flip").addClass("flipped") 
-        
+        $("#flip").addClass("flipped")
+
     $("iframe").load ->
         $("#mainnews p:first", $("iframe").get(0).contentDocument
         ).bind( "mouseenter", ->
@@ -24,24 +24,24 @@ $ ->
         ).click ->
             $("#content textarea").val($(this).text())
             $("#flip").removeClass("flipped")
-      
-    
-            
+
+
+
     $(".corner").load("img/arrow.svg")
     .click ->
-        $("#flip").removeClass("flipped")  
-     
-            
-         
+        $("#flip").removeClass("flipped")
+
+
+
 convertJSON = (obj)->
     out = {kwic : []}
     sent = if _.isArray(obj.sentence) then obj.sentence else [obj.sentence]
     for wd in sent
         sentence = {tokens : []}
-        sentence.tokens.push($.extend({}, x)) for x in wd.w  
+        sentence.tokens.push($.extend({}, x)) for x in wd.w
         out.kwic.push(sentence)
-       
-    return JSON.stringify(out) 
+
+    return JSON.stringify(out)
 
 window.get = ->
     $("body").addClass("loading")
@@ -62,8 +62,8 @@ window.get = ->
             window.xml = $.xml2json(xml)
             korpJson = convertJSON($.xml2json(xml))
 
-            $.ajax 
-                url : korp_url,
+            $.ajax
+                url : backend_url,
                 data: korpJson,
                 type : "POST",
                 dataType : "json",
@@ -72,7 +72,7 @@ window.get = ->
                     sents = _.flatten _.pluck data.kwic, "tokens"
                     $("#result").html(
                       $("#wordTmpl").tmpl(sents)
-                      ) 
+                      )
                     $("body").removeClass("loading")
 
 

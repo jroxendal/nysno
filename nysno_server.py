@@ -12,18 +12,19 @@ from urllib import unquote
 
 from lookup import getSynsetSafe
 from ccfconnect import CCFClient
-client = CCFClient("ccf.femtioprocent.com", 8899)
+client = CCFClient("ccf.conceptcoding.org", 8899)
 
 
 def getBliss(wd):
-    req = {"Q":"lookup",
-       "ref":"REF", 
-       "seq":12345, 
-       "word": wd, 
-       "langIn":"en", 
+    req = {"Q": "lookup",
+       "ref":"REF",
+       "seq":12345,
+       "word": wd,
+       "langIn":"en",
        "langOut":"bliss"}
     struct = client.get_json(req)
     return [x["repr"].split("/")[-1] for x in struct["arr"] if x["repr"]]
+
 
 def parseKorpResult(result):
     # output = json.loads(result)
@@ -35,7 +36,7 @@ def parseKorpResult(result):
                 wordnetlist = chain.from_iterable(ifilter(bool, wordnetlist))
                 blisslist = imap(getBliss, wordnetlist)
                 blisslist = chain.from_iterable(ifilter(bool, blisslist))
-                
+
                 token[attr] = list(blisslist)
     return result
 
@@ -44,9 +45,7 @@ def blissMixin(data):
     return parseKorpResult(data)
 
 
-
 def application(environ, start_response):
-    
     try:
         input = environ["wsgi.input"].read(int(environ["CONTENT_LENGTH"]))
         environ["wsgi.input"] = StringIO(input)
@@ -55,7 +54,7 @@ def application(environ, start_response):
     data = json.loads(unquote(input))
     output = blissMixin(data)
     try:
-        
+
         status = '200 OK'
         headers = [('Content-type', 'application/json'), ("Access-Control-Allow-Origin", "*")]
         start_response(status, headers)
@@ -66,10 +65,9 @@ def application(environ, start_response):
         headers = [('Content-type', 'text/plain')]
         start_response(status, headers)
         return [traceback.format_exc()]
-        
-    
-    
+
+
 if __name__ == '__main__':
-   httpd = make_server('', 8000, application)
-   print "Serving on port 8000..."
-   httpd.serve_forever()
+    httpd = make_server('', 8000, application)
+    print "Serving on port 8000..."
+    httpd.serve_forever()
