@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />  
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>Nysnö</title>
 
 <!--<link href="reset.css" type="text/css" rel="stylesheet" />-->
@@ -11,15 +11,15 @@
 <script src="lib/jquery.js"></script>
 <script src="lib/jquery-ui-1.9pre.js"></script>
 <script src="lib/underscore.js"></script>
-<script src="lib/jquery.tmpl.js"></script> 
-<script src="lib/xml2json.js"></script> 
+<script src="lib/jquery.tmpl.js"></script>
+<script src="lib/xml2json.js"></script>
 
 <script src="build/main.js"></script>
 
 
 </head>
 %body
-   
+
   #flip
     .front
       .header
@@ -31,13 +31,13 @@
           %input#get_article(type="submit" value="Hämta artikel")
           %div(style="clear:both;")
         #result
-        
+
     .back
       .corner
       #remote
-        %iframe{:src => "http://mac12.svenska.gu.se/cgi-bin/proxy.py"}
+        %iframe{:src => "http://demo.spraakdata.gu.se/cgi-bin/johanrox/proxy.py"}
   #footer
-  
+
   :plain
     <script id="wordTmpl" type="text/x-jquery-tmpl">
       <div>
@@ -46,7 +46,6 @@
       </div>
     </script>
 
-    
+
 
 </html>
- 
