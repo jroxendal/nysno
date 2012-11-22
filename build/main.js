@@ -6,7 +6,13 @@
     log: $.noop
   };
 
-  backend_url = "nysno.wsgi";
+  c.log("location", location.host);
+
+  if (location.host === "localhost") {
+    backend_url = "http://localhost:8000";
+  } else {
+    backend_url = "nysno.wsgi";
+  }
 
   $(function() {
     var _this = this;

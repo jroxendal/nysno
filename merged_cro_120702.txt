@@ -1,0 +1,664 @@
+cc-how-7002 || 1,700000061	1,0	Ambigious part of speech | 1	0	0	0	en	how
+cc-how-7002 || 6,700000061	6,0 | 6	0	0	0	sv	hur
+cc-how-7002 || 5,700000061	5,0 | 5	0	0	0	bliss	how.png
+cc-how-7002 || 7,700000061	7,0 | 7	0	0	0	es	cómo
+cc-how-7002 || 8,700000061	8,0 | 8	0	0	0	nl	hoe
+
+cc-anytime-8001 || 1,800000047	1,0	Interjection | 1	0	0	0	en	anytime
+cc-anytime-8001 || 6,800000047	6,0 | 6	0	0	0	sv	någonsin | 6	0	0	0	sv	när som helst
+cc-anytime-8001 || 5,800000047	5,0 | 5	0	0	0	bliss	anytime,sometime.png
+cc-anytime-8001 || 7,800000047	7,0 | 7	0	0	0	es	en cualquier momento | 7	0	0	0	es	en algún momento
+cc-anytime-8001 || 8,800000047	8,0 | 8	0	0	0	nl	wanneer dan ook
+cc-anytime-8001 || 9,800000047	9,0 | 9	0	0	0	syn	sometime
+
+cc-headmouse-1001 || 1,100000059	1,0	noun | 1	0	0	0	en	headmouse,headmouses
+cc-headmouse-1001 || 6,100000059	6,0 | 6	0	0	0	sv	huvudmus
+cc-headmouse-1001 || 5,100000059	5,0 | 5	0	0	0	bliss	headmouse.png
+cc-headmouse-1001 || 7,100000059	7,0 | 7	0	0	0	es	ratón cefálico,ratón cefálicos
+cc-headmouse-1001 || 8,100000059	8,0 | 8	0	0	0	nl	hoofdmuis,hoofdmuizen
+
+cc-that-5002 || 1,500000085	1,0	Preposition | 1	0	0	0	en	that
+cc-that-5002 || 6,500000085	6,0 | 6	0	0	0	sv	den där | 6	0	0	0	sv	det där
+cc-that-5002 || 5,500000085	5,0 | 5	0	0	0	bliss	that_(there).png
+cc-that-5002 || 7,500000085	7,0 | 7	0	0	0	es	ese
+cc-that-5002 || 8,500000085	8,0 | 8	0	0	0	nl	die | 8	0	0	0	nl	dat
+
+cc-that-5001 || 1,500000022	1,0	Preposition | 1	0	0	0	en	that
+cc-that-5001 || 6,500000022	6,0 | 6	0	0	0	sv	att
+cc-that-5001 || 5,500000022	5,0 | 5	0	0	0	bliss	that_(conj).png
+cc-that-5001 || 20,500000022	20,0 | 20	0	0	0	aras	that_(1).png | 20	0	0	0	aras	that_(2).png
+cc-that-5001 || 7,500000022	7,0 | 7	0	0	0	es	que
+cc-that-5001 || 8,500000022	8,0 | 8	0	0	0	nl	die | 8	0	0	0	nl	dat
+
+cc-it-6001 || 1,600000016	1,0	Pronoun | 1	0	0	0	en	it
+cc-it-6001 || 6,600000016	6,0 | 6	0	0	0	sv	den | 6	0	0	0	sv	det
+cc-it-6001 || 5,600000016	5,0 | 5	0	0	0	bliss	it.png
+cc-it-6001 || 20,600000016	20,0 | 20	0	0	0	aras	it_(1).png | 20	0	0	0	aras	it_(2).png
+cc-it-6001 || 7,600000016	7,0 | 7	0	0	0	es	eso | 7	0	0	0	es	lo
+cc-it-6001 || 8,600000016	8,0 | 8	0	0	0	nl	het
+
+cc-because-5001 || 1,500000050	1,0	Preposition | 1	0	0	0	en	because
+cc-because-5001 || 6,500000050	6,0 | 6	0	0	0	sv	därför
+cc-because-5001 || 5,500000050	5,0 | 5	0	0	0	bliss	because.png
+cc-because-5001 || 7,500000050	7,0 | 7	0	0	0	es	porque
+cc-because-5001 || 8,500000050	8,0 | 8	0	0	0	nl	omdat
+
+cc-how-7001 || 1,700000060	1,0	Ambigious part of speech | 1	0	0	0	en	how
+cc-how-7001 || 6,700000060	6,0 | 6	0	0	0	sv	hur
+cc-how-7001 || 5,700000060	5,0 | 5	0	0	0	bliss	how-(question).png
+cc-how-7001 || 7,700000060	7,0 | 7	0	0	0	es	cómo
+cc-how-7001 || 8,700000060	8,0 | 8	0	0	0	nl	hoe
+
+cc-yes-8001 || 1,800000104	1,0	Interjection | 1	0	0	0	en	yes
+cc-yes-8001 || 6,800000104	6,0 | 6	0	0	0	sv	ja
+cc-yes-8001 || 5,800000104	5,0 | 5	0	0	0	bliss	yes-(exclamatory).png
+cc-yes-8001 || 7,800000104	7,0 | 7	0	0	0	es	sí
+cc-yes-8001 || 8,800000104	8,0 | 8	0	0	0	nl	ja
+
+cc-some-7001 || 1,700000084	1,0	Ambigious part of speech | 1	0	0	0	en	some
+cc-some-7001 || 6,700000084	6,0 | 6	0	0	0	sv	endera | 6	0	0	0	sv	någon | 6	0	0	0	sv	en del | 6	0	0	0	sv	vissa
+cc-some-7001 || 5,700000084	5,0 | 5	0	0	0	bliss	some,any.png
+cc-some-7001 || 7,700000084	7,0 | 7	0	0	0	es	algunos
+cc-some-7001 || 8,700000084	8,0 | 8	0	0	0	nl	sommige | 8	0	0	0	nl	enkele
+cc-some-7001 || 9,700000084	9,0 | 9	0	0	0	syn	any
+
+cc-who-7001 || 1,700000038	1,0	Ambigious part of speech | 1	0	0	0	en	who
+cc-who-7001 || 6,700000038	6,0 | 6	0	0	0	sv	som
+cc-who-7001 || 5,700000038	5,0 | 5	0	0	0	bliss	who,that,which-(relative).png
+cc-who-7001 || 20,700000038	20,0 | 20	0	0	0	aras	who_(1).png | 20	0	0	0	aras	who_(2).png | 20	0	0	0	aras	who_(3).png
+cc-who-7001 || 7,700000038	7,0 | 7	0	0	0	es	quién
+cc-who-7001 || 8,700000038	8,0 | 8	0	0	0	nl	wie | 8	0	0	0	nl	die
+cc-who-7001 || 9,700000038	9,0 | 9	0	0	0	syn	that | 9	0	0	0	syn	which
+
+cc-who-7002 || 1,700000097	1,0	Ambigious part of speech | 1	0	0	0	en	who
+cc-who-7002 || 6,700000097	6,0 | 6	0	0	0	sv	vem | 6	0	0	0	sv	vem som
+cc-who-7002 || 5,700000097	5,0 | 5	0	0	0	bliss	who,whom,that-(relative).png
+cc-who-7002 || 7,700000097	7,0 | 7	0	0	0	es	quién | 7	0	0	0	es	qué
+cc-who-7002 || 8,700000097	8,0 | 8	0	0	0	nl	wie | 8	0	0	0	nl	die
+cc-who-7002 || 9,700000097	9,0 | 9	0	0	0	syn	whom | 9	0	0	0	syn	that
+
+cc-who-7003 || 1,700000098	1,0	Ambigious part of speech | 1	0	0	0	en	who
+cc-who-7003 || 6,700000098	6,0 | 6	0	0	0	sv	vem
+cc-who-7003 || 5,700000098	5,0 | 5	0	0	0	bliss	who,whom-(question).png
+cc-who-7003 || 7,700000098	7,0 | 7	0	0	0	es	quién
+cc-who-7003 || 8,700000098	8,0 | 8	0	0	0	nl	wie | 8	0	0	0	nl	die
+cc-who-7003 || 9,700000098	9,0 | 9	0	0	0	syn	whom
+
+cc-last_week-9001 || 1,900000068	1,0	Unknown part of speech | 1	0	0	0	en	last_week
+cc-last_week-9001 || 6,900000068	6,0 | 6	0	0	0	sv	förra veckan
+cc-last_week-9001 || 5,900000068	5,0 | 5	0	0	0	bliss	last_week.png
+cc-last_week-9001 || 7,900000068	7,0 | 7	0	0	0	es	última semana
+cc-last_week-9001 || 8,900000068	8,0 | 8	0	0	0	nl	verleden week
+
+cc-their-6001 || 1,600000027	1,0	Pronoun | 1	0	0	0	en	their
+cc-their-6001 || 6,600000027	6,0 | 6	0	0	0	sv	deras | 6	0	0	0	sv	sin | 6	0	0	0	sv	sitt | 6	0	0	0	sv	sina
+cc-their-6001 || 5,600000027	5,0 | 5	0	0	0	bliss	their,theirs-(persons).png
+cc-their-6001 || 20,600000027	20,0 | 20	0	0	0	aras	their_(1).png | 20	0	0	0	aras	their_(2).png | 20	0	0	0	aras	their_(3).png | 20	0	0	0	aras	their_(4).png
+cc-their-6001 || 7,600000027	7,0 | 7	0	0	0	es	suyo
+cc-their-6001 || 8,600000027	8,0 | 8	0	0	0	nl	hen | 8	0	0	0	nl	hun | 8	0	0	0	nl	van hen
+cc-their-6001 || 9,600000027	9,0 | 9	0	0	0	syn	theirs
+
+cc-they-6001 || 1,600000030	1,0	Pronoun | 1	0	0	0	en	they
+cc-they-6001 || 6,600000030	6,0 | 6	0	0	0	sv	de | 6	0	0	0	sv	dem | 6	0	0	0	sv	sig
+cc-they-6001 || 5,600000030	5,0 | 5	0	0	0	bliss	they,them,themselves-(persons).png
+cc-they-6001 || 20,600000030	20,0 | 20	0	0	0	aras	they_(1).png | 20	0	0	0	aras	they_(2).png
+cc-they-6001 || 7,600000030	7,0 | 7	0	0	0	es	ellos
+cc-they-6001 || 8,600000030	8,0 | 8	0	0	0	nl	zij | 8	0	0	0	nl	hen
+cc-they-6001 || 9,600000030	9,0 | 9	0	0	0	syn	them | 9	0	0	0	syn	themselves
+
+cc-media_player-1001 || 1,100000073	1,0	noun | 1	0	0	0	en	media_player,media_players
+cc-media_player-1001 || 6,100000073	6,0 | 6	0	0	0	sv	mediaspelare
+cc-media_player-1001 || 5,100000073	5,0 | 5	0	0	0	bliss	media_player.png
+
+cc-last_night-9001 || 1,900000067	1,0	Unknown part of speech | 1	0	0	0	en	last_night
+cc-last_night-9001 || 6,900000067	6,0 | 6	0	0	0	sv	igår natt
+cc-last_night-9001 || 5,900000067	5,0 | 5	0	0	0	bliss	last_night.png
+cc-last_night-9001 || 7,900000067	7,0 | 7	0	0	0	es	anoche
+cc-last_night-9001 || 8,900000067	8,0 | 8	0	0	0	nl	gisteravond
+
+cc-next_month-9001 || 1,900000075	1,0	Unknown part of speech | 1	0	0	0	en	next_month
+cc-next_month-9001 || 6,900000075	6,0 | 6	0	0	0	sv	nästa månad
+cc-next_month-9001 || 5,900000075	5,0 | 5	0	0	0	bliss	next_month.png
+cc-next_month-9001 || 8,900000075	8,0 | 8	0	0	0	nl	volgende maand
+
+cc-me-6001 || 1,600000017	1,0	Pronoun | 1	0	0	0	en	me
+cc-me-6001 || 20,600000017	20,0 | 20	0	0	0	aras	me_(1).png | 20	0	0	0	aras	me_(2).png
+
+cc-your-6001 || 1,600000042	1,0	Pronoun | 1	0	0	0	en	your
+cc-your-6001 || 6,600000042	6,0 | 6	0	0	0	sv	din | 6	0	0	0	sv	ditt | 6	0	0	0	sv	dina | 6	0	0	0	sv	er | 6	0	0	0	sv	ert | 6	0	0	0	sv	era
+cc-your-6001 || 5,600000042	5,0 | 5	0	0	0	bliss	your,yours-(singular).png | 5	0	0	0	bliss	your,yours-(plural).png
+cc-your-6001 || 20,600000042	20,0 | 20	0	0	0	aras	your_(1).png | 20	0	0	0	aras	your_(2).png | 20	0	0	0	aras	your_(2nd_person)_(1).png | 20	0	0	0	aras	your_(2nd_person)_(2).png | 20	0	0	0	aras	your_(2nd_person_plural)_(1).png | 20	0	0	0	aras	your_(2nd_person_plural)_(2).png | 20	0	0	0	aras	your_(plural)_(1).png | 20	0	0	0	aras	your_(plural)_(2).png
+cc-your-6001 || 7,600000042	7,0 | 7	0	0	0	es	tuyo | 7	0	0	0	es	suyo
+cc-your-6001 || 8,600000042	8,0 | 8	0	0	0	nl	uw | 8	0	0	0	nl	jouw | 8	0	0	0	nl	jullie
+cc-your-6001 || 9,600000042	9,0 | 9	0	0	0	syn	yours
+
+cc-you-6001 || 1,600000041	1,0	Pronoun | 1	0	0	0	en	you
+cc-you-6001 || 6,600000041	6,0 | 6	0	0	0	sv	du | 6	0	0	0	sv	dig
+cc-you-6001 || 5,600000041	5,0 | 5	0	0	0	bliss	you,yourself.png
+cc-you-6001 || 20,600000041	20,0 | 20	0	0	0	aras	you_(1).png | 20	0	0	0	aras	you_(2).png | 20	0	0	0	aras	you_(3).png | 20	0	0	0	aras	you_(4).png | 20	0	0	0	aras	you_(5).png | 20	0	0	0	aras	you_(6).png | 20	0	0	0	aras	you_(7).png | 20	0	0	0	aras	you_(8).png
+cc-you-6001 || 7,600000041	7,0 | 7	0	0	0	es	usted
+cc-you-6001 || 8,600000041	8,0 | 8	0	0	0	nl	jij | 8	0	0	0	nl	je
+cc-you-6001 || 9,600000041	9,0 | 9	0	0	0	syn	yourself
+
+cc-you-6002 || 1,600000105	1,0	Pronoun | 1	0	0	0	en	you
+cc-you-6002 || 6,600000105	6,0 | 6	0	0	0	sv	ni | 6	0	0	0	sv	er
+cc-you-6002 || 5,600000105	5,0 | 5	0	0	0	bliss	you,yourselves-(plural).png
+cc-you-6002 || 7,600000105	7,0 | 7	0	0	0	es	vosotros | 7	0	0	0	es	vosotras
+cc-you-6002 || 8,600000105	8,0 | 8	0	0	0	nl	jullie
+cc-you-6002 || 9,600000105	9,0 | 9	0	0	0	syn	yourselves
+
+cc-let_us-9001 || 1,900000072	1,0	Unknown part of speech | 1	0	0	0	en	let_us
+cc-let_us-9001 || 6,900000072	6,0 | 6	0	0	0	sv	låt oss
+cc-let_us-9001 || 5,900000072	5,0 | 5	0	0	0	bliss	let_us.png
+cc-let_us-9001 || 7,900000072	7,0 | 7	0	0	0	es	dejadnos
+
+cc-this-7001 || 1,700000031	1,0	Ambigious part of speech | 1	0	0	0	en	this
+cc-this-7001 || 6,700000031	6,0 | 6	0	0	0	sv	den här | 6	0	0	0	sv	det här
+cc-this-7001 || 5,700000031	5,0 | 5	0	0	0	bliss	this.png
+cc-this-7001 || 20,700000031	20,0 | 20	0	0	0	aras	this.png
+cc-this-7001 || 7,700000031	7,0 | 7	0	0	0	es	esta
+cc-this-7001 || 8,700000031	8,0 | 8	0	0	0	nl	dit | 8	0	0	0	nl	deze
+
+cc-a-7001 || 1,700000001	1,0	Ambigious part of speech | 1	0	0	0	en	a
+cc-a-7001 || 6,700000001	6,0 | 6	0	0	0	sv	en | 6	0	0	0	sv	ett
+cc-a-7001 || 5,700000001	5,0 | 5	0	0	0	bliss	a,an,any.png
+cc-a-7001 || 20,700000001	20,0 | 20	0	0	0	aras	a,one_(fem.).png
+cc-a-7001 || 7,700000001	7,0 | 7	0	0	0	es	cualquier | 7	0	0	0	es	cualquiera
+cc-a-7001 || 8,700000001	8,0 | 8	0	0	0	nl	een
+cc-a-7001 || 9,700000001	9,0 | 9	0	0	0	syn	an | 9	0	0	0	syn	any
+
+cc-a-7002 || 1,700000002	1,0	Ambigious part of speech | 1	0	0	0	en	a
+cc-a-7002 || 20,700000002	20,0 | 20	0	0	0	aras	a,one_(masc.).png
+cc-a-7002 || 8,700000002	8,0 | 8	0	0	0	nl	a
+
+cc-its-6001 || 1,600000065	1,0	Pronoun | 1	0	0	0	en	its
+cc-its-6001 || 6,600000065	6,0 | 6	0	0	0	sv	dess | 6	0	0	0	sv	sin | 6	0	0	0	sv	sitt | 6	0	0	0	sv	sina
+cc-its-6001 || 5,600000065	5,0 | 5	0	0	0	bliss	its.png
+cc-its-6001 || 7,600000065	7,0 | 7	0	0	0	es	su
+cc-its-6001 || 8,600000065	8,0 | 8	0	0	0	nl	ervan
+
+cc-them-6001 || 1,600000028	1,0	Pronoun | 1	0	0	0	en	them
+cc-them-6001 || 20,600000028	20,0 | 20	0	0	0	aras	them_(1).png | 20	0	0	0	aras	them_(2).png | 20	0	0	0	aras	them_(3).png
+
+cc-bliss_name-1001 || 1,100000052	1,0	noun | 1	0	0	0	en	bliss-name,bliss-names
+cc-bliss_name-1001 || 6,100000052	6,0 | 6	0	0	0	sv	blissnamn
+cc-bliss_name-1001 || 5,100000052	5,0 | 5	0	0	0	bliss	bliss-name.png
+cc-bliss_name-1001 || 7,100000052	7,0 | 7	0	0	0	es	palabra Bliss,palabra Blisses
+
+cc-him-6001 || 1,600000011	1,0	Pronoun | 1	0	0	0	en	him
+cc-him-6001 || 20,600000011	20,0 | 20	0	0	0	aras	him-(to).png
+
+cc-until-5001 || 1,500000034	1,0	Preposition | 1	0	0	0	en	until
+cc-until-5001 || 6,500000034	6,0 | 6	0	0	0	sv	intill | 6	0	0	0	sv	tills
+cc-until-5001 || 5,500000034	5,0 | 5	0	0	0	bliss	until,till,to.png
+cc-until-5001 || 20,500000034	20,0 | 20	0	0	0	aras	until.png
+cc-until-5001 || 7,500000034	7,0 | 7	0	0	0	es	hasta
+cc-until-5001 || 8,500000034	8,0 | 8	0	0	0	nl	tot
+cc-until-5001 || 9,500000034	9,0 | 9	0	0	0	syn	till | 9	0	0	0	syn	to
+
+cc-electric_wheelchair-1001 || 1,100000006	1,0	noun | 1	0	0	0	en	electric_wheelchair,electric_wheelchairs
+cc-electric_wheelchair-1001 || 6,100000006	6,0 | 6	0	0	0	sv	elrullstol
+cc-electric_wheelchair-1001 || 5,100000006	5,0 | 5	0	0	0	bliss	electric_wheelchair.png
+cc-electric_wheelchair-1001 || 20,100000006	20,0 | 20	0	0	0	aras	electric_wheelchair.png
+cc-electric_wheelchair-1001 || 7,100000006	7,0 | 7	0	0	0	es	silla de ruedas eléctrica,sillas de ruedas eléctrica
+cc-electric_wheelchair-1001 || 8,100000006	8,0 | 8	0	0	0	nl	elektrische rolstoel,elektrische rolstoels
+
+cc-i-6001 || 1,600000015	1,0	Pronoun | 1	0	0	0	en	I
+cc-i-6001 || 6,600000015	6,0 | 6	0	0	0	sv	jag | 6	0	0	0	sv	mig
+cc-i-6001 || 5,600000015	5,0 | 5	0	0	0	bliss	I,me,myself.png
+cc-i-6001 || 20,600000015	20,0 | 20	0	0	0	aras	I,me_(1).png | 20	0	0	0	aras	I,me_(2).png | 20	0	0	0	aras	I,me_(3).png | 20	0	0	0	aras	I,me_(4).png
+cc-i-6001 || 7,600000015	7,0 | 7	0	0	0	es	Yo
+cc-i-6001 || 8,600000015	8,0 | 8	0	0	0	nl	ik | 8	0	0	0	nl	mij | 8	0	0	0	nl	mezelf
+cc-i-6001 || 9,600000015	9,0 | 9	0	0	0	syn	me | 9	0	0	0	syn	myself
+
+cc-you_are_welcome-8001 || 1,800000106	1,0	Interjection | 1	0	0	0	en	you_are_welcome
+cc-you_are_welcome-8001 || 6,800000106	6,0 | 6	0	0	0	sv	ingen orsak
+cc-you_are_welcome-8001 || 5,800000106	5,0 | 5	0	0	0	bliss	you_are_welcome,you're_welcome.png
+cc-you_are_welcome-8001 || 7,800000106	7,0 | 7	0	0	0	es	de nada
+cc-you_are_welcome-8001 || 8,800000106	8,0 | 8	0	0	0	nl	graag gedaan
+cc-you_are_welcome-8001 || 9,800000106	9,0 | 9	0	0	0	syn	you're_welcome
+
+cc-those-7001 || 1,700000032	1,0	Ambigious part of speech | 1	0	0	0	en	those
+cc-those-7001 || 6,700000032	6,0 | 6	0	0	0	sv	de där
+cc-those-7001 || 5,700000032	5,0 | 5	0	0	0	bliss	those.png
+cc-those-7001 || 20,700000032	20,0 | 20	0	0	0	aras	those_(1).png | 20	0	0	0	aras	those_(2).png
+cc-those-7001 || 7,700000032	7,0 | 7	0	0	0	es	aquellos
+cc-those-7001 || 8,700000032	8,0 | 8	0	0	0	nl	die
+
+cc-nor-7001 || 1,700000081	1,0	Ambigious part of speech | 1	0	0	0	en	nor
+cc-nor-7001 || 6,700000081	6,0 | 6	0	0	0	sv	eller
+cc-nor-7001 || 5,700000081	5,0 | 5	0	0	0	bliss	nor.png
+cc-nor-7001 || 7,700000081	7,0 | 7	0	0	0	es	ni
+cc-nor-7001 || 8,700000081	8,0 | 8	0	0	0	nl	noch
+
+cc-anyone-6001 || 1,600000045	1,0	Pronoun | 1	0	0	0	en	anyone
+cc-anyone-6001 || 6,600000045	6,0 | 6	0	0	0	sv	någon | 6	0	0	0	sv	vem som helst
+cc-anyone-6001 || 5,600000045	5,0 | 5	0	0	0	bliss	anyone,anybody,somebody,someone.png
+cc-anyone-6001 || 7,600000045	7,0 | 7	0	0	0	es	nadie
+cc-anyone-6001 || 9,600000045	9,0 | 9	0	0	0	syn	anybody | 9	0	0	0	syn	somebody | 9	0	0	0	syn	someone
+
+cc-the-7002 || 1,700000024	1,0	Ambigious part of speech | 1	0	0	0	en	the
+cc-the-7002 || 20,700000024	20,0 | 20	0	0	0	aras	the_(fem.).png
+cc-the-7002 || 8,700000024	8,0 | 8	0	0	0	nl	de
+
+cc-the-7001 || 1,700000023	1,0	Ambigious part of speech | 1	0	0	0	en	the
+cc-the-7001 || 6,700000023	6,0 | 6	0	0	0	sv	den | 6	0	0	0	sv	det
+cc-the-7001 || 5,700000023	5,0 | 5	0	0	0	bliss	the.png
+cc-the-7001 || 20,700000023	20,0 | 20	0	0	0	aras	the_(_masc._plural).png
+cc-the-7001 || 7,700000023	7,0 | 7	0	0	0	es	el
+cc-the-7001 || 8,700000023	8,0 | 8	0	0	0	nl	de | 8	0	0	0	nl	het
+
+cc-to-7001 || 1,700000033	1,0	Ambigious part of speech | 1	0	0	0	en	to
+cc-to-7001 || 6,700000033	6,0 | 6	0	0	0	sv	till | 6	0	0	0	sv	mot | 6	0	0	0	sv	fram mot
+cc-to-7001 || 5,700000033	5,0 | 5	0	0	0	bliss	to,toward,towards.png
+cc-to-7001 || 20,700000033	20,0 | 20	0	0	0	aras	to_(1).png | 20	0	0	0	aras	to_(2).png
+cc-to-7001 || 7,700000033	7,0 | 7	0	0	0	es	a | 7	0	0	0	es	hacia
+cc-to-7001 || 8,700000033	8,0 | 8	0	0	0	nl	naar | 8	0	0	0	nl	naartoe | 8	0	0	0	nl	erheen
+cc-to-7001 || 9,700000033	9,0 | 9	0	0	0	syn	toward | 9	0	0	0	syn	towards
+
+cc-the-7004 || 1,700000026	1,0	Ambigious part of speech | 1	0	0	0	en	the
+cc-the-7004 || 20,700000026	20,0 | 20	0	0	0	aras	the_(masc.).png
+cc-the-7004 || 8,700000026	8,0 | 8	0	0	0	nl	de
+
+cc-last_year-9001 || 1,900000069	1,0	Unknown part of speech | 1	0	0	0	en	last_year
+cc-last_year-9001 || 6,900000069	6,0 | 6	0	0	0	sv	förra året
+cc-last_year-9001 || 5,900000069	5,0 | 5	0	0	0	bliss	last_year.png
+cc-last_year-9001 || 7,900000069	7,0 | 7	0	0	0	es	útimo año
+cc-last_year-9001 || 8,900000069	8,0 | 8	0	0	0	nl	verleden jaar
+
+cc-which-7002 || 1,700000096	1,0	Ambigious part of speech | 1	0	0	0	en	which
+cc-which-7002 || 6,700000096	6,0 | 6	0	0	0	sv	vilken
+cc-which-7002 || 5,700000096	5,0 | 5	0	0	0	bliss	which-(question).png
+cc-which-7002 || 7,700000096	7,0 | 7	0	0	0	es	cuál
+cc-which-7002 || 8,700000096	8,0 | 8	0	0	0	nl	welk
+
+cc-which-7001 || 1,700000095	1,0	Ambigious part of speech | 1	0	0	0	en	which
+cc-which-7001 || 6,700000095	6,0 | 6	0	0	0	sv	vilken | 6	0	0	0	sv	vilken som
+cc-which-7001 || 5,700000095	5,0 | 5	0	0	0	bliss	which,that-(relative).png
+cc-which-7001 || 7,700000095	7,0 | 7	0	0	0	es	que
+cc-which-7001 || 8,700000095	8,0 | 8	0	0	0	nl	dat | 8	0	0	0	nl	die
+cc-which-7001 || 9,700000095	9,0 | 9	0	0	0	syn	that
+
+cc-shall-2001 || 1,200000083	1,0	verb | 1	0	0	0	en	shall,should
+cc-shall-2001 || 6,200000083	6,0 | 6	0	0	0	sv	skall,ska,skola,skolade,skolar,skolat,skulle | 6	0	0	0	sv	kommer att
+cc-shall-2001 || 5,200000083	5,0 | 5	0	0	0	bliss	shall,will-(modal_aux_v).png
+cc-shall-2001 || 7,200000083	7,0 | 7	0	0	0	es	seré,,seréemos,seréá,seréán,seréás,seréé,serééis | 7	0	0	0	es	estaré,,estaréemos,estaréá,estaréán,estaréás,estaréé,estarééis
+cc-shall-2001 || 9,200000083	9,0 | 9	0	0	0	syn	will,would
+
+cc-wow-8001 || 1,800000103	1,0	Interjection | 1	0	0	0	en	wow
+cc-wow-8001 || 6,800000103	6,0 | 6	0	0	0	sv	jättebra | 6	0	0	0	sv	toppen
+cc-wow-8001 || 5,800000103	5,0 | 5	0	0	0	bliss	wow,super,great,neat,cool-(exclamatory).png
+cc-wow-8001 || 7,800000103	7,0 | 7	0	0	0	es	uau
+cc-wow-8001 || 8,800000103	8,0 | 8	0	0	0	nl	wauw
+cc-wow-8001 || 9,800000103	9,0 | 9	0	0	0	syn	super | 9	0	0	0	syn	great | 9	0	0	0	syn	neat | 9	0	0	0	syn	cool
+
+cc-whose-7002 || 1,700000100	1,0	Ambigious part of speech | 1	0	0	0	en	whose
+cc-whose-7002 || 6,700000100	6,0 | 6	0	0	0	sv	vars | 6	0	0	0	sv	vilkens
+cc-whose-7002 || 5,700000100	5,0 | 5	0	0	0	bliss	whose_(neutral).png
+cc-whose-7002 || 7,700000100	7,0 | 7	0	0	0	es	cuyo
+cc-whose-7002 || 8,700000100	8,0 | 8	0	0	0	nl	wiens | 8	0	0	0	nl	van welke
+
+cc-whose-7003 || 1,700000101	1,0	Ambigious part of speech | 1	0	0	0	en	whose
+cc-whose-7003 || 6,700000101	6,0 | 6	0	0	0	sv	vems | 6	0	0	0	sv	vars
+cc-whose-7003 || 5,700000101	5,0 | 5	0	0	0	bliss	whose_(person).png
+cc-whose-7003 || 7,700000101	7,0 | 7	0	0	0	es	cuyo
+cc-whose-7003 || 8,700000101	8,0 | 8	0	0	0	nl	wiens | 8	0	0	0	nl	van welke
+
+cc-everybody-6001 || 1,600000055	1,0	Pronoun | 1	0	0	0	en	everybody
+cc-everybody-6001 || 6,600000055	6,0 | 6	0	0	0	sv	alla
+cc-everybody-6001 || 5,600000055	5,0 | 5	0	0	0	bliss	everybody,everyone.png
+cc-everybody-6001 || 7,600000055	7,0 | 7	0	0	0	es	todo el mundo
+cc-everybody-6001 || 8,600000055	8,0 | 8	0	0	0	nl	iedereen
+cc-everybody-6001 || 9,600000055	9,0 | 9	0	0	0	syn	everyone
+
+cc-these-7001 || 1,700000029	1,0	Ambigious part of speech | 1	0	0	0	en	these
+cc-these-7001 || 6,700000029	6,0 | 6	0	0	0	sv	de här
+cc-these-7001 || 5,700000029	5,0 | 5	0	0	0	bliss	these.png
+cc-these-7001 || 20,700000029	20,0 | 20	0	0	0	aras	these.png
+cc-these-7001 || 7,700000029	7,0 | 7	0	0	0	es	estos
+cc-these-7001 || 8,700000029	8,0 | 8	0	0	0	nl	deze
+
+cc-no_one-6001 || 1,600000079	1,0	Pronoun | 1	0	0	0	en	no_one
+cc-no_one-6001 || 6,600000079	6,0 | 6	0	0	0	sv	ingen
+cc-no_one-6001 || 5,600000079	5,0 | 5	0	0	0	bliss	no_one,nobody.png
+cc-no_one-6001 || 7,600000079	7,0 | 7	0	0	0	es	nadie
+cc-no_one-6001 || 8,600000079	8,0 | 8	0	0	0	nl	niemand
+cc-no_one-6001 || 9,600000079	9,0 | 9	0	0	0	syn	nobody
+
+cc-my-6001 || 1,600000018	1,0	Pronoun | 1	100	0	0	en	my
+cc-my-6001 || 6,600000018	6,0 | 6	0	0	0	sv	min | 6	0	0	0	sv	mitt | 6	0	0	0	sv	mina
+cc-my-6001 || 5,600000018	5,0 | 5	0	0	0	bliss	my,mine.png
+cc-my-6001 || 20,600000018	20,0 | 20	0	0	0	aras	my_(plural).png
+cc-my-6001 || 7,600000018	7,0 | 7	0	0	0	es	mi | 7	0	0	0	es	medio | 7	0	0	0	es	mío
+cc-my-6001 || 8,600000018	8,0 | 8	0	0	0	nl	mij | 8	0	0	0	nl	mijn
+cc-my-6001 || 9,600000018	9,0 | 9	0	0	0	syn	mine
+
+cc-anything-6001 || 1,600000046	1,0	Pronoun | 1	0	0	0	en	anything
+cc-anything-6001 || 6,600000046	6,0 | 6	0	0	0	sv	någon | 6	0	0	0	sv	något | 6	0	0	0	sv	vad som helst
+cc-anything-6001 || 5,600000046	5,0 | 5	0	0	0	bliss	anything,something.png
+cc-anything-6001 || 7,600000046	7,0 | 7	0	0	0	es	cualquier cosa | 7	0	0	0	es	algo
+cc-anything-6001 || 8,600000046	8,0 | 8	0	0	0	nl	iets
+cc-anything-6001 || 9,600000046	9,0 | 9	0	0	0	syn	something
+
+cc-our-6001 || 1,600000020	1,0	Pronoun | 1	0	0	0	en	our
+cc-our-6001 || 6,600000020	6,0 | 6	0	0	0	sv	vår | 6	0	0	0	sv	vårt | 6	0	0	0	sv	våra
+cc-our-6001 || 5,600000020	5,0 | 5	0	0	0	bliss	our,ours.png
+cc-our-6001 || 20,600000020	20,0 | 20	0	0	0	aras	our_(1).png | 20	0	0	0	aras	our_(2).png
+cc-our-6001 || 7,600000020	7,0 | 7	0	0	0	es	nuestro
+cc-our-6001 || 8,600000020	8,0 | 8	0	0	0	nl	ons | 8	0	0	0	nl	onze
+cc-our-6001 || 9,600000020	9,0 | 9	0	0	0	syn	ours
+
+cc-no-8001 || 1,800000078	1,0	Interjection | 1	0	0	0	en	no
+cc-no-8001 || 6,800000078	6,0 | 6	0	0	0	sv	nej
+cc-no-8001 || 5,800000078	5,0 | 5	0	0	0	bliss	no-(exclamatory).png
+cc-no-8001 || 7,800000078	7,0 | 7	0	0	0	es	no
+cc-no-8001 || 8,800000078	8,0 | 8	0	0	0	nl	nee | 8	0	0	0	nl	niet
+
+cc-greater_than-9001 || 1,900000057	1,0	Unknown part of speech | 1	0	0	0	en	greater_than
+cc-greater_than-9001 || 6,900000057	6,0 | 6	0	0	0	sv	större än
+cc-greater_than-9001 || 5,900000057	5,0 | 5	0	0	0	bliss	greater_than_(relation).png
+cc-greater_than-9001 || 7,900000057	7,0 | 7	0	0	0	es	mayor que
+cc-greater_than-9001 || 8,900000057	8,0 | 8	0	0	0	nl	groter dan
+
+cc-what-7003 || 1,700000090	1,0	Ambigious part of speech | 1	0	0	0	en	what
+cc-what-7003 || 6,700000090	6,0 | 6	0	0	0	sv	vad
+cc-what-7003 || 5,700000090	5,0 | 5	0	0	0	bliss	what_(thing)-(question).png
+cc-what-7003 || 7,700000090	7,0 | 7	0	0	0	es	qué cosa
+cc-what-7003 || 8,700000090	8,0 | 8	0	0	0	nl	wat
+
+cc-what-7002 || 1,700000089	1,0	Ambigious part of speech | 1	0	0	0	en	what
+cc-what-7002 || 6,700000089	6,0 | 6	0	0	0	sv	vad | 6	0	0	0	sv	vad som
+cc-what-7002 || 5,700000089	5,0 | 5	0	0	0	bliss	what.png
+cc-what-7002 || 7,700000089	7,0 | 7	0	0	0	es	qué
+cc-what-7002 || 8,700000089	8,0 | 8	0	0	0	nl	wat
+
+cc-what-7001 || 1,700000088	1,0	Ambigious part of speech | 1	0	0	0	en	what
+cc-what-7001 || 6,700000088	6,0 | 6	0	0	0	sv	fråga
+cc-what-7001 || 5,700000088	5,0 | 5	0	0	0	bliss	what,question_mark.png
+cc-what-7001 || 7,700000088	7,0 | 7	0	0	0	es	qué | 7	0	0	0	es	signo de interrogación
+cc-what-7001 || 8,700000088	8,0 | 8	0	0	0	nl	wat
+cc-what-7001 || 9,700000088	9,0 | 9	0	0	0	syn	question_mark
+
+cc-if-5001 || 1,500000063	1,0	Preposition | 1	0	0	0	en	if
+cc-if-5001 || 6,500000063	6,0 | 6	0	0	0	sv	om | 6	0	0	0	sv	ifall
+cc-if-5001 || 5,500000063	5,0 | 5	0	0	0	bliss	if.png
+cc-if-5001 || 7,500000063	7,0 | 7	0	0	0	es	si
+cc-if-5001 || 8,500000063	8,0 | 8	0	0	0	nl	indien | 8	0	0	0	nl	als
+
+cc-what_kind-9001 || 1,900000091	1,0	Unknown part of speech | 1	0	0	0	en	what_kind
+cc-what_kind-9001 || 6,900000091	6,0 | 6	0	0	0	sv	vilken sort
+cc-what_kind-9001 || 5,900000091	5,0 | 5	0	0	0	bliss	what_kind-(question).png
+cc-what_kind-9001 || 7,900000091	7,0 | 7	0	0	0	es	qué tipo
+cc-what_kind-9001 || 8,900000091	8,0 | 8	0	0	0	nl	wat voor soort
+
+cc-or-7001 || 1,700000082	1,0	Ambigious part of speech | 1	0	0	0	en	or
+cc-or-7001 || 6,700000082	6,0 | 6	0	0	0	sv	eller
+cc-or-7001 || 5,700000082	5,0 | 5	0	0	0	bliss	or.png
+cc-or-7001 || 7,700000082	7,0 | 7	0	0	0	es	o
+cc-or-7001 || 8,700000082	8,0 | 8	0	0	0	nl	of
+
+cc-into-5001 || 1,500000064	1,0	Preposition | 1	0	0	0	en	into
+cc-into-5001 || 6,500000064	6,0 | 6	0	0	0	sv	in | 6	0	0	0	sv	ingång
+cc-into-5001 || 5,500000064	5,0 | 5	0	0	0	bliss	into.png
+cc-into-5001 || 7,500000064	7,0 | 7	0	0	0	es	en
+cc-into-5001 || 8,500000064	8,0 | 8	0	0	0	nl	naar binnen | 8	0	0	0	nl	in | 8	0	0	0	nl	erin
+
+cc-the-7003 || 1,700000025	1,0	Ambigious part of speech | 1	0	0	0	en	the
+cc-the-7003 || 20,700000025	20,0 | 20	0	0	0	aras	the_(fem_plural).png
+cc-the-7003 || 8,700000025	8,0 | 8	0	0	0	nl	de
+
+cc-blissymbol-1001 || 1,100000053	1,0	noun | 1	0	0	0	en	blissymbol,blissymbols
+cc-blissymbol-1001 || 6,100000053	6,0 | 6	0	0	0	sv	blissymbol
+cc-blissymbol-1001 || 5,100000053	5,0 | 5	0	0	0	bliss	blissymbol.png
+cc-blissymbol-1001 || 7,100000053	7,0 | 7	0	0	0	es	símbolos Bliss,símbolos Blisses
+
+cc-bioenergy-1001 || 1,100000051	1,0	noun | 1	0	0	0	en	bioenergy,bioenergies
+cc-bioenergy-1001 || 6,100000051	6,0 | 6	0	0	0	sv	bioenergi
+cc-bioenergy-1001 || 5,100000051	5,0 | 5	0	0	0	bliss	bioenergy.png
+
+cc-why-7001 || 1,700000102	1,0	Ambigious part of speech | 1	0	0	0	en	why
+cc-why-7001 || 6,700000102	6,0 | 6	0	0	0	sv	varför
+cc-why-7001 || 5,700000102	5,0 | 5	0	0	0	bliss	why-(question).png
+cc-why-7001 || 7,700000102	7,0 | 7	0	0	0	es	por qué
+cc-why-7001 || 8,700000102	8,0 | 8	0	0	0	nl	waarom
+
+cc-of-5001 || 1,500000019	1,0	Preposition | 1	0	0	0	en	of
+cc-of-5001 || 20,500000019	20,0 | 20	0	0	0	aras	of.png
+
+cc-nonsense-8001 || 1,800000080	1,0	Interjection | 1	0	0	0	en	nonsense
+cc-nonsense-8001 || 6,800000080	6,0 | 6	0	0	0	sv	dumheter
+cc-nonsense-8001 || 5,800000080	5,0 | 5	0	0	0	bliss	nonsense-(exclamatory).png
+cc-nonsense-8001 || 7,800000080	7,0 | 7	0	0	0	es	disparate
+cc-nonsense-8001 || 8,800000080	8,0 | 8	0	0	0	nl	onzin
+
+cc-when-7001 || 1,700000092	1,0	Ambigious part of speech | 1	0	0	0	en	when
+cc-when-7001 || 6,700000092	6,0 | 6	0	0	0	sv	när
+cc-when-7001 || 5,700000092	5,0 | 5	0	0	0	bliss	when,what_time-(question).png
+cc-when-7001 || 7,700000092	7,0 | 7	0	0	0	es	cuándo
+cc-when-7001 || 8,700000092	8,0 | 8	0	0	0	nl	wanneer
+cc-when-7001 || 9,700000092	9,0 | 9	0	0	0	syn	what_time
+
+cc-let_fall-2001 || 1,200000071	1,0	verb | 1	0	0	0	en	let_fall,leted_fall,lets_fall,letting_fall
+cc-let_fall-2001 || 6,200000071	6,0 | 6	0	0	0	sv	släppa,släpp,släpper,släppt,släppte
+cc-let_fall-2001 || 5,200000071	5,0 | 5	0	0	0	bliss	let_fall,drop-(to).png
+cc-let_fall-2001 || 9,200000071	9,0 | 9	0	0	0	syn	drop,dropped,dropping,drops
+
+cc-her-6001 || 1,600000010	1,0	Pronoun | 1	0	0	0	en	her
+cc-her-6001 || 6,600000010	6,0 | 6	0	0	0	sv	hennes | 6	0	0	0	sv	sin | 6	0	0	0	sv	sitt | 6	0	0	0	sv	sina
+cc-her-6001 || 5,600000010	5,0 | 5	0	0	0	bliss	her,hers.png
+cc-her-6001 || 20,600000010	20,0 | 20	0	0	0	aras	her-(to).png
+cc-her-6001 || 7,600000010	7,0 | 7	0	0	0	es	su | 7	0	0	0	es	suya
+cc-her-6001 || 8,600000010	8,0 | 8	0	0	0	nl	haar
+cc-her-6001 || 9,600000010	9,0 | 9	0	0	0	syn	hers
+
+cc-when-7002 || 1,700000093	1,0	Ambigious part of speech | 1	0	0	0	en	when
+cc-when-7002 || 6,700000093	6,0 | 6	0	0	0	sv	när
+cc-when-7002 || 5,700000093	5,0 | 5	0	0	0	bliss	when.png
+cc-when-7002 || 7,700000093	7,0 | 7	0	0	0	es	cuando
+cc-when-7002 || 8,700000093	8,0 | 8	0	0	0	nl	wanneer
+
+cc-without-5001 || 1,500000040	1,0	Preposition | 1	0	0	0	en	without
+cc-without-5001 || 20,500000040	20,0 | 20	0	0	0	aras	without.png
+
+cc-his-6003 || 1,600000014	1,0	Pronoun | 1	0	0	0	en	his
+cc-his-6003 || 20,600000014	20,0 | 20	0	0	0	aras	his,hers,theirs_(4).png | 20	0	0	0	aras	his,hers,theirs_(1).png | 20	0	0	0	aras	his,hers,theirs_(2).png | 20	0	0	0	aras	his,hers,theirs_(3).png
+cc-his-6003 || 8,600000014	8,0 | 8	0	0	0	nl	zijn
+cc-his-6003 || 9,600000014	9,0 | 9	0	0	0	syn	hers
+
+cc-his-6002 || 1,600000013	1,0	Pronoun | 1	0	0	0	en	his
+cc-his-6002 || 6,600000013	6,0 | 6	0	0	0	sv	hans | 6	0	0	0	sv	sin | 6	0	0	0	sv	sitt | 6	0	0	0	sv	sina
+cc-his-6002 || 5,600000013	5,0 | 5	0	0	0	bliss	his.png
+cc-his-6002 || 20,600000013	20,0 | 20	0	0	0	aras	his,hers,its_(1).png | 20	0	0	0	aras	his,hers,its_(2).png | 20	0	0	0	aras	his,hers,its_(3).png | 20	0	0	0	aras	his,hers,its_(4).png
+cc-his-6002 || 7,600000013	7,0 | 7	0	0	0	es	su | 7	0	0	0	es	suyo
+cc-his-6002 || 8,600000013	8,0 | 8	0	0	0	nl	zijn
+
+cc-his-6001 || 1,600000012	1,0	Pronoun | 1	0	0	0	en	his
+cc-his-6001 || 6,600000012	6,0 | 6	0	0	0	sv	sin | 6	0	0	0	sv	sitt | 6	0	0	0	sv	sina
+cc-his-6001 || 5,600000012	5,0 | 5	0	0	0	bliss	his,her,hers,one's.png
+cc-his-6001 || 20,600000012	20,0 | 20	0	0	0	aras	his,her,its_(1).png | 20	0	0	0	aras	his,her,its_(2).png | 20	0	0	0	aras	his,her,its_(3).png | 20	0	0	0	aras	his,her,its_(4).png
+cc-his-6001 || 7,600000012	7,0 | 7	0	0	0	es	suyo | 7	0	0	0	es	suya | 7	0	0	0	es	de uno
+cc-his-6001 || 8,600000012	8,0 | 8	0	0	0	nl	zijn | 8	0	0	0	nl	haar
+cc-his-6001 || 9,600000012	9,0 | 9	0	0	0	syn	her | 9	0	0	0	syn	hers | 9	0	0	0	syn	one's
+
+cc-from-5001 || 1,500000008	1,0	Preposition | 1	0	0	0	en	from
+cc-from-5001 || 6,500000008	6,0 | 6	0	0	0	sv	från
+cc-from-5001 || 5,500000008	5,0 | 5	0	0	0	bliss	from.png
+cc-from-5001 || 20,500000008	20,0 | 20	0	0	0	aras	from.png
+cc-from-5001 || 7,500000008	7,0 | 7	0	0	0	es	de | 7	0	0	0	es	desde
+cc-from-5001 || 8,500000008	8,0 | 8	0	0	0	nl	van | 8	0	0	0	nl	vanaf
+
+cc-less_than-9001 || 1,900000070	1,0	Unknown part of speech | 1	0	0	0	en	less_than
+cc-less_than-9001 || 6,900000070	6,0 | 6	0	0	0	sv	mindre än
+cc-less_than-9001 || 5,900000070	5,0 | 5	0	0	0	bliss	less_than_(relation).png
+cc-less_than-9001 || 7,900000070	7,0 | 7	0	0	0	es	menos que
+
+cc-he-6002 || 1,600000058	1,0	Pronoun | 1	0	0	0	en	he
+cc-he-6002 || 6,600000058	6,0 | 6	0	0	0	sv	man | 6	0	0	0	sv	sig
+cc-he-6002 || 5,600000058	5,0 | 5	0	0	0	bliss	he,she,him,her,one.png
+cc-he-6002 || 7,600000058	7,0 | 7	0	0	0	es	él | 7	0	0	0	es	ella | 7	0	0	0	es	una
+cc-he-6002 || 8,600000058	8,0 | 8	0	0	0	nl	hij | 8	0	0	0	nl	zij | 8	0	0	0	nl	zelf | 8	0	0	0	nl	zichzelf | 8	0	0	0	nl	elkaar
+cc-he-6002 || 9,600000058	9,0 | 9	0	0	0	syn	she | 9	0	0	0	syn	him | 9	0	0	0	syn	her | 9	0	0	0	syn	one
+
+cc-he-6001 || 1,600000009	1,0	Pronoun | 1	100	0	0	en	he
+cc-he-6001 || 6,600000009	6,0 | 6	0	0	0	sv	han | 6	0	0	0	sv	honom | 6	0	0	0	sv	sig
+cc-he-6001 || 5,600000009	5,0 | 5	0	0	0	bliss	he,him,himself.png
+cc-he-6001 || 20,600000009	20,0 | 20	0	0	0	aras	he_(2).png
+cc-he-6001 || 7,600000009	7,0 | 7	0	0	0	es	él
+cc-he-6001 || 8,600000009	8,0 | 8	0	0	0	nl	hij | 8	0	0	0	nl	hem
+cc-he-6001 || 9,600000009	9,0 | 9	0	0	0	syn	him | 9	0	0	0	syn	himself
+
+cc-how_much-9001 || 1,900000062	1,0	Unknown part of speech | 1	0	0	0	en	how_much
+cc-how_much-9001 || 6,900000062	6,0 | 6	0	0	0	sv	hur mycket | 6	0	0	0	sv	hur många
+cc-how_much-9001 || 5,900000062	5,0 | 5	0	0	0	bliss	how_much,how_many.png
+cc-how_much-9001 || 7,900000062	7,0 | 7	0	0	0	es	cuánto
+cc-how_much-9001 || 8,900000062	8,0 | 8	0	0	0	nl	hoeveel?
+cc-how_much-9001 || 9,900000062	9,0 | 9	0	0	0	syn	how_many
+
+cc-be_named-2001 || 1,200000049	1,0	verb | 1	0	0	0	en	be_named,am_named,are_named,been_named,being_named,is_named,was_named,were_named
+cc-be_named-2001 || 6,200000049	6,0 | 6	0	0	0	sv	heta,het,hetat,heter,hette
+cc-be_named-2001 || 5,200000049	5,0 | 5	0	0	0	bliss	be_named,be_called-(to).png
+cc-be_named-2001 || 9,200000049	9,0 | 9	0	0	0	syn	be_called,am_called,are_called,been_called,being_called,is_called,was_called,were_called
+
+cc-last_month-9001 || 1,900000066	1,0	Unknown part of speech | 1	0	0	0	en	last_month
+cc-last_month-9001 || 6,900000066	6,0 | 6	0	0	0	sv	förra månaden
+cc-last_month-9001 || 5,900000066	5,0 | 5	0	0	0	bliss	last_month.png
+cc-last_month-9001 || 8,900000066	8,0 | 8	0	0	0	nl	vorige maand
+
+cc-although-5001 || 1,500000044	1,0	Preposition | 1	0	0	0	en	although
+cc-although-5001 || 6,500000044	6,0 | 6	0	0	0	sv	fastän | 6	0	0	0	sv	även om
+cc-although-5001 || 5,500000044	5,0 | 5	0	0	0	bliss	although.png
+cc-although-5001 || 7,500000044	7,0 | 7	0	0	0	es	aunque
+cc-although-5001 || 8,500000044	8,0 | 8	0	0	0	nl	hoewel
+
+cc-and-7001 || 1,700000004	1,0	Ambigious part of speech | 1	0	0	0	en	and
+cc-and-7001 || 6,700000004	6,0 | 6	0	0	0	sv	och | 6	0	0	0	sv	också | 6	0	0	0	sv	plus
+cc-and-7001 || 5,700000004	5,0 | 5	0	0	0	bliss	and,also,plus,too.png
+cc-and-7001 || 20,700000004	20,0 | 20	0	0	0	aras	and.png
+cc-and-7001 || 7,700000004	7,0 | 7	0	0	0	es	y
+cc-and-7001 || 8,700000004	8,0 | 8	0	0	0	nl	en | 8	0	0	0	nl	plus
+cc-and-7001 || 9,700000004	9,0 | 9	0	0	0	syn	also | 9	0	0	0	syn	plus | 9	0	0	0	syn	too
+
+cc-at-5001 || 1,500000048	1,0	Preposition | 1	0	0	0	en	at
+cc-at-5001 || 6,500000048	6,0 | 6	0	0	0	sv	vid | 6	0	0	0	sv	bredvid | 6	0	0	0	sv	hos
+cc-at-5001 || 5,500000048	5,0 | 5	0	0	0	bliss	at.png
+cc-at-5001 || 7,500000048	7,0 | 7	0	0	0	es	en
+cc-at-5001 || 8,500000048	8,0 | 8	0	0	0	nl	op | 8	0	0	0	nl	te | 8	0	0	0	nl	in | 8	0	0	0	nl	bij
+
+cc-adding-3001 || 1,300000043	1,0	adjective | 1	0	0	0	en	adding,addinger,addingest
+cc-adding-3001 || 6,300000043	6,0 | 6	0	0	0	sv	tillsats
+cc-adding-3001 || 5,300000043	5,0 | 5	0	0	0	bliss	adding,additive.png
+cc-adding-3001 || 7,300000043	7,0 | 7	0	0	0	es	añadir,añadires | 7	0	0	0	es	aditivo,aditiva,aditivas,aditivos
+cc-adding-3001 || 9,300000043	9,0 | 9	0	0	0	syn	additive,more additive,most additive
+
+cc-must-2001 || 1,200000074	1,0	verb | 1	100	0	0	en	must
+cc-must-2001 || 6,200000074	6,0 | 6	0	0	0	sv	måste,måst,måsta
+cc-must-2001 || 5,200000074	5,0 | 5	0	0	0	bliss	must,have_to,be_forced_to-(to).png
+cc-must-2001 || 7,200000074	7,0 | 7	0	0	0	es	deber,debe,debemos,deben,deberemos,deberá,deberán,deberás,deberé,deberéis,debes,debido,debiendo,debieron,debimos,debiste,debisteis,debió,debo,debéis,debí,debía,debíais,debíamos,debían,debías | 7	0	0	0	es	tener que,tendremos que,tendrá que,tendrán que,tendrás que,tendré que,tendréis que,tenemos que,tengo que,tenido que,teniendo que,tenéis que,tenía que,teníais que,teníamos que,tenían que,tenías que,tiene que,tienen que,tienes que,tuve que,tuvieron que,tuvimos que,tuviste que,tuvisteis que,tuvo que
+cc-must-2001 || 9,200000074	9,0 | 9	0	0	0	syn	have_to,had_to,has_to,having_to | 9	0	0	0	syn	be_forced_to,am_forced_to,are_forced_to,been_forced_to,being_forced_to,is_forced_to,was_forced_to,were_forced_to
+
+cc-during-5001 || 1,500000005	1,0	Preposition | 1	0	0	0	en	during
+cc-during-5001 || 6,500000005	6,0 | 6	0	0	0	sv	medan | 6	0	0	0	sv	under tiden
+cc-during-5001 || 5,500000005	5,0 | 5	0	0	0	bliss	during,while.png
+cc-during-5001 || 20,500000005	20,0 | 20	0	0	0	aras	during.png
+cc-during-5001 || 7,500000005	7,0 | 7	0	0	0	es	durante
+cc-during-5001 || 8,500000005	8,0 | 8	0	0	0	nl	terwijl
+cc-during-5001 || 9,500000005	9,0 | 9	0	0	0	syn	while
+
+cc-where-7001 || 1,700000037	1,0	Ambigious part of speech | 1	0	0	0	en	where
+cc-where-7001 || 6,700000037	6,0 | 6	0	0	0	sv	var
+cc-where-7001 || 5,700000037	5,0 | 5	0	0	0	bliss	where-(question).png
+cc-where-7001 || 20,700000037	20,0 | 20	0	0	0	aras	where.png
+cc-where-7001 || 7,700000037	7,0 | 7	0	0	0	es	dónde
+cc-where-7001 || 8,700000037	8,0 | 8	0	0	0	nl	waar
+
+cc-where-7002 || 1,700000094	1,0	Ambigious part of speech | 1	0	0	0	en	where
+cc-where-7002 || 6,700000094	6,0 | 6	0	0	0	sv	var | 6	0	0	0	sv	var som
+cc-where-7002 || 5,700000094	5,0 | 5	0	0	0	bliss	where.png
+cc-where-7002 || 7,700000094	7,0 | 7	0	0	0	es	donde
+cc-where-7002 || 8,700000094	8,0 | 8	0	0	0	nl	waar
+
+cc-unless-5001 || 1,500000087	1,0	Preposition | 1	0	0	0	en	unless
+cc-unless-5001 || 6,500000087	6,0 | 6	0	0	0	sv	utom
+cc-unless-5001 || 5,500000087	5,0 | 5	0	0	0	bliss	unless.png
+cc-unless-5001 || 7,500000087	7,0 | 7	0	0	0	es	a menos que
+cc-unless-5001 || 8,500000087	8,0 | 8	0	0	0	nl	tenzij
+
+cc-ugh-8001 || 1,800000086	1,0	Interjection | 1	0	0	0	en	ugh
+cc-ugh-8001 || 6,800000086	6,0 | 6	0	0	0	sv	urdålig | 6	0	0	0	sv	botten
+cc-ugh-8001 || 5,800000086	5,0 | 5	0	0	0	bliss	ugh,yuk-(exclamatory).png
+cc-ugh-8001 || 7,800000086	7,0 | 7	0	0	0	es	ugh
+cc-ugh-8001 || 8,800000086	8,0 | 8	0	0	0	nl	bah
+cc-ugh-8001 || 9,800000086	9,0 | 9	0	0	0	syn	yuk
+
+cc-next_week-9001 || 1,900000076	1,0	Unknown part of speech | 1	0	0	0	en	next_week
+cc-next_week-9001 || 6,900000076	6,0 | 6	0	0	0	sv	nästa vecka
+cc-next_week-9001 || 5,900000076	5,0 | 5	0	0	0	bliss	next_week.png
+cc-next_week-9001 || 7,900000076	7,0 | 7	0	0	0	es	próxima semana
+cc-next_week-9001 || 8,900000076	8,0 | 8	0	0	0	nl	volgende week
+
+cc-for-5001 || 1,500000007	1,0	Preposition | 1	100	0	0	en	for
+cc-for-5001 || 6,500000007	6,0 | 6	0	0	0	sv	för | 6	0	0	0	sv	i stället för | 6	0	0	0	sv	i utbyte mot
+cc-for-5001 || 5,500000007	5,0 | 5	0	0	0	bliss	for_(in_exchange_for).png
+cc-for-5001 || 20,500000007	20,0 | 20	0	0	0	aras	for.png
+cc-for-5001 || 7,500000007	7,0 | 7	0	0	0	es	por
+cc-for-5001 || 8,500000007	8,0 | 8	0	0	0	nl	in ruil voor
+
+cc-we-6001 || 1,600000036	1,0	Pronoun | 1	0	0	0	en	we
+cc-we-6001 || 6,600000036	6,0 | 6	0	0	0	sv	vi | 6	0	0	0	sv	oss
+cc-we-6001 || 5,600000036	5,0 | 5	0	0	0	bliss	we,us,ourselves.png
+cc-we-6001 || 20,600000036	20,0 | 20	0	0	0	aras	we_(1).png | 20	0	0	0	aras	we_(2).png
+cc-we-6001 || 7,600000036	7,0 | 7	0	0	0	es	nosotros
+cc-we-6001 || 8,600000036	8,0 | 8	0	0	0	nl	wij | 8	0	0	0	nl	ons
+cc-we-6001 || 9,600000036	9,0 | 9	0	0	0	syn	us | 9	0	0	0	syn	ourselves
+
+cc-for-5002 || 1,500000056	1,0	Preposition | 1	100	0	0	en	for
+cc-for-5002 || 6,500000056	6,0 | 6	0	0	0	sv	för | 6	0	0	0	sv	för att
+cc-for-5002 || 5,500000056	5,0 | 5	0	0	0	bliss	for_(the purpose of),in_order_to.png
+cc-for-5002 || 7,500000056	7,0 | 7	0	0	0	es	por
+cc-for-5002 || 8,500000056	8,0 | 8	0	0	0	nl	in ruil voor
+cc-for-5002 || 9,500000056	9,0 | 9	0	0	0	syn	in_order_to
+
+cc-against-5001 || 1,500000003	1,0	Preposition | 1	0	0	0	en	against
+cc-against-5001 || 6,500000003	6,0 | 6	0	0	0	sv	mot
+cc-against-5001 || 5,500000003	5,0 | 5	0	0	0	bliss	against,opposed_to.png
+cc-against-5001 || 20,500000003	20,0 | 20	0	0	0	aras	against.png
+cc-against-5001 || 7,500000003	7,0 | 7	0	0	0	es	contra
+cc-against-5001 || 8,500000003	8,0 | 8	0	0	0	nl	tegen
+cc-against-5001 || 9,500000003	9,0 | 9	0	0	0	syn	opposed_to
+
+cc-with-5001 || 1,500000039	1,0	Preposition | 1	0	0	0	en	with
+cc-with-5001 || 6,500000039	6,0 | 6	0	0	0	sv	med
+cc-with-5001 || 5,500000039	5,0 | 5	0	0	0	bliss	with.png
+cc-with-5001 || 20,500000039	20,0 | 20	0	0	0	aras	with.png
+cc-with-5001 || 7,500000039	7,0 | 7	0	0	0	es	con
+cc-with-5001 || 8,500000039	8,0 | 8	0	0	0	nl	met behulp van
+
+cc-us-6001 || 1,600000035	1,0	Pronoun | 1	0	0	0	en	us
+cc-us-6001 || 20,600000035	20,0 | 20	0	0	0	aras	us_(1).png | 20	0	0	0	aras	us_(2).png | 20	0	0	0	aras	us_(3).png
+
+cc-next_year-9001 || 1,900000077	1,0	Unknown part of speech | 1	0	0	0	en	next_year
+cc-next_year-9001 || 6,900000077	6,0 | 6	0	0	0	sv	nästa år
+cc-next_year-9001 || 5,900000077	5,0 | 5	0	0	0	bliss	next_year.png
+cc-next_year-9001 || 7,900000077	7,0 | 7	0	0	0	es	próximo año
+cc-next_year-9001 || 8,900000077	8,0 | 8	0	0	0	nl	volgend jaar
+
+cc-bruised-3001 || 1,300000054	1,0	adjective | 1	0	0	0	en	bruised,more bruised,most bruised
+cc-bruised-3001 || 6,300000054	6,0 | 6	0	0	0	sv	bucklig,buckliga,buckligare,buckligast,buckligaste,buckligt | 6	0	0	0	sv	svullen,svullet,svullna,svullnare,svullnast,svullnaste
+cc-bruised-3001 || 5,300000054	5,0 | 5	0	0	0	bliss	bruised,dented.png
+cc-bruised-3001 || 7,300000054	7,0 | 7	0	0	0	es	abollado,abollada,abolladas,abollados | 7	0	0	0	es	golpeado,golpeada,golpeadas,golpeados
+cc-bruised-3001 || 9,300000054	9,0 | 9	0	0	0	syn	dented,more dented,most dented
+
+cc-she-6001 || 1,600000021	1,0	Pronoun | 1	100	0	0	en	she
+cc-she-6001 || 6,600000021	6,0 | 6	0	0	0	sv	hon | 6	0	0	0	sv	henne | 6	0	0	0	sv	sig
+cc-she-6001 || 5,600000021	5,0 | 5	0	0	0	bliss	she,her,herself.png
+cc-she-6001 || 20,600000021	20,0 | 20	0	0	0	aras	she_(1).png | 20	0	0	0	aras	she_(2).png
+cc-she-6001 || 7,600000021	7,0 | 7	0	0	0	es	ella
+cc-she-6001 || 8,600000021	8,0 | 8	0	0	0	nl	zij | 8	0	0	0	nl	haar
+cc-she-6001 || 9,600000021	9,0 | 9	0	0	0	syn	her | 9	0	0	0	syn	herself
+
+cc-whose-7001 || 1,700000099	1,0	Ambigious part of speech | 1	0	0	0	en	whose
+cc-whose-7001 || 6,700000099	6,0 | 6	0	0	0	sv	vems
+cc-whose-7001 || 5,700000099	5,0 | 5	0	0	0	bliss	whose-(question).png
+cc-whose-7001 || 7,700000099	7,0 | 7	0	0	0	es	de quién
+cc-whose-7001 || 8,700000099	8,0 | 8	0	0	0	nl	wiens | 8	0	0	0	nl	van welke
+

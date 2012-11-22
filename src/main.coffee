@@ -1,5 +1,5 @@
 c = console ? log : $.noop
-
+c.log("location", location.host)
 if location.host == "localhost"
     backend_url = "http://localhost:8000"
 else
