@@ -36,21 +36,20 @@ $ ->
 
 
 
-convertJSON = (obj)->
+convertJSON = (xml)->
     out = {kwic : []}
-    sent = if _.isArray(obj.sentence) then obj.sentence else [obj.sentence]
-    for wd in sent
+    for elem in $ "sentence", xml
         sentence = {tokens : []}
-        sentence.tokens.push($.extend({}, x)) for x in wd.w
+        sentence.tokens.push($.extend({}, x)) for x in $.xml2json(elem).w
         out.kwic.push(sentence)
-
     return JSON.stringify(out)
+
 
 window.get = ->
     $("body").addClass("loading")
     $.ajax
-        url: "http://demo.spraakdata.gu.se/dan/backend/"
-        dataType: "text"
+        url: "http://spraakbanken.gu.se/ws/korp/annotate"
+        dataType: "xml"
         timeout: 300000
         type: "GET"
         data:
@@ -61,9 +60,9 @@ window.get = ->
             # incremental: false
 
         success: (xml, textStatus, xhr) ->
-            c.log("xml2json", $.xml2json(xml))
-            window.xml = $.xml2json(xml)
-            korpJson = convertJSON($.xml2json(xml))
+            c.log("success", xml)
+            # c.log("success", $.xml2json(xml))
+            korpJson = convertJSON(xml)
 
             $.ajax
                 url : backend_url,

@@ -44,20 +44,20 @@
     });
   });
 
-  convertJSON = function(obj) {
-    var out, sent, sentence, wd, x, _i, _j, _len, _len1, _ref;
+  convertJSON = function(xml) {
+    var elem, out, sentence, x, _i, _j, _len, _len1, _ref, _ref1;
     out = {
       kwic: []
     };
-    sent = _.isArray(obj.sentence) ? obj.sentence : [obj.sentence];
-    for (_i = 0, _len = sent.length; _i < _len; _i++) {
-      wd = sent[_i];
+    _ref = $("sentence", xml);
+    for (_i = 0, _len = _ref.length; _i < _len; _i++) {
+      elem = _ref[_i];
       sentence = {
         tokens: []
       };
-      _ref = wd.w;
-      for (_j = 0, _len1 = _ref.length; _j < _len1; _j++) {
-        x = _ref[_j];
+      _ref1 = $.xml2json(elem).w;
+      for (_j = 0, _len1 = _ref1.length; _j < _len1; _j++) {
+        x = _ref1[_j];
         sentence.tokens.push($.extend({}, x));
       }
       out.kwic.push(sentence);
@@ -68,8 +68,8 @@
   window.get = function() {
     $("body").addClass("loading");
     return $.ajax({
-      url: "http://demo.spraakdata.gu.se/dan/backend/",
-      dataType: "text",
+      url: "http://spraakbanken.gu.se/ws/korp/annotate",
+      dataType: "xml",
       timeout: 300000,
       type: "GET",
       data: {
@@ -80,9 +80,8 @@
       },
       success: function(xml, textStatus, xhr) {
         var korpJson;
-        c.log("xml2json", $.xml2json(xml));
-        window.xml = $.xml2json(xml);
-        korpJson = convertJSON($.xml2json(xml));
+        c.log("success", xml);
+        korpJson = convertJSON(xml);
         return $.ajax({
           url: backend_url,
           data: korpJson,

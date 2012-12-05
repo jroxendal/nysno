@@ -69,7 +69,6 @@ def matchTypes(cc_swe, cc_bliss):
 flist = open('merged_cro_120702.txt', 'r')
 swelex, blisslex = createLexs(flist)
 swebliss = matchTypes(swelex, blisslex)
-print swebliss
 def wordToBliss(word):
     return swebliss.get(word)
 

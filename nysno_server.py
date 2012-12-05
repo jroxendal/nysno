@@ -36,10 +36,15 @@ def parseKorpResult(result):
     for struct in result["kwic"]:
         for token in struct["tokens"]:
             for attr in ["lex", "prefix", "suffix"]:
+                # get rid of emtpy sets
                 saldolist   = filter(bool, token[attr].split("|"))
-                wordnetlist = imap(getSynsetSafe, saldolist)
-                wordnetlist = chain.from_iterable(ifilter(bool, wordnetlist))
-                blisslist   = imap(getBliss, wordnetlist)
+                # get list of wordnet identifiers for each lemgram
+                wordnetlist = map(getSynsetSafe, saldolist)
+                # get rid of empty and flatten list
+                wordnetlist = list(chain.from_iterable(ifilter(bool, wordnetlist)))
+                # for each wordnet identifier, get an image filname from the ccf server
+                blisslist   = map(getBliss, wordnetlist)
+                # get rid of empty and flatten
                 blisslist   = list(chain.from_iterable(ifilter(bool, blisslist)))
 
                 if not blisslist and saldolist:
@@ -61,6 +66,7 @@ def application(environ, start_response):
         environ["wsgi.input"] = StringIO(input)
     except KeyError:
         input = None
+
     data = json.loads(unquote(input))
     output = blissMixin(data)
     try:
