@@ -66,7 +66,7 @@ window.get = ->
 
             $.ajax
                 url : backend_url,
-                data: korpJson,
+                data: {text : korpJson},
                 type : "POST",
                 dataType : "json",
                 success: (data) ->

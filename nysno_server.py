@@ -61,14 +61,12 @@ def blissMixin(data):
 
 
 def application(environ, start_response):
-    try:
-        input = environ["wsgi.input"].read(int(environ["CONTENT_LENGTH"]))
-        environ["wsgi.input"] = StringIO(input)
-    except KeyError:
-        input = None
+    form = cgi.FieldStorage(fp=environ["wsgi.input"],
+                           environ=environ,
+                           keep_blank_values=True)
 
-    data = json.loads(unquote(input))
-    output = blissMixin(data)
+    text = json.loads(form["text"].value)
+    output = blissMixin(text)
     try:
 
         status = '200 OK'
