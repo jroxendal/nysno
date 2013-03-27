@@ -11,20 +11,21 @@ html {
 }
 
 body {
-  
+
   font-size : 14px;
-  max-width : 975px; 
+  max-width : 975px;
   min-width : 400px;
   width : 100%;
   min-height : 100%;
   margin : 8px auto;
   padding : 15px;
   font-family : Helvetica sans-serif;
-  
+
   @include perspective(1000px);
   -moz-perspective : 1000px;
   position: relative;
-  @include border-radius(2px 2px);  
+  @include border-radius(2px 2px);
+
 }
 
 
@@ -34,8 +35,35 @@ h1 {
   text-align: center;
 }
 
+h2 {
+  font-size : 2em;
+  font-family: 'Love Ya Like A Sister', Helvetica;
+  text-align: center;
+}
+
 h1:first-letter {
-  font-size : 1.3em;  
+  font-size : 1.3em;
+}
+
+/* menu */
+
+ol{
+    padding-top:15px;
+    background-color:#5d83a0;
+    display:block;
+}
+li{
+    color:black;
+    text-align:center;
+    font-size : 1.7em;
+    font-family: 'Love Ya Like A Sister', Helvetica;
+    display:inline;
+    padding:5px 10px 0 10px;
+    margin-right:2px;
+    background-color: white;
+}
+a{
+    text-decoration:none;
 }
 
 #header {
@@ -50,6 +78,10 @@ h1:first-letter {
 }
 
 #content {
+  p {
+    max-width : 500px;
+    margin : 0 auto;
+  }
 }
 
 #content form {
@@ -70,14 +102,35 @@ h1:first-letter {
   }
 }
 
-/* transform */
-
-#flip {
-  
+#frame {
   width: 100%;
   height: 98%;
   position: absolute;
-  
+}
+
+#frame > div {
+  background-color : white;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+#frame .front {
+}
+
+#frame .header {
+  background-color : #5d83a0;
+}
+
+/* transform */
+
+#flip {
+
+  width: 100%;
+  height: 98%;
+  position: absolute;
+
   @include transform(rotateY(0));
   @include transition(transform 1s);
   @include transform-style( preserve-3d );
@@ -92,20 +145,25 @@ h1:first-letter {
   height: 100%;
   @include backface-visibility(hidden);
   -moz-backface-visibility : hidden;
-  
-  
+
+
 }
+
+#flip .header {
+  background-color : #5d83a0;
+}
+
 
 #flip .front {
 }
 #flip .back {
     @include transform(rotateY(180deg));
     z-index : -1;
-    
+
 }
 #flip.flipped {
     @include transform(rotateY(180deg));
-} 
+}
 
 .corner {
   position : fixed;
@@ -123,6 +181,7 @@ h1:first-letter {
 
 #content {
   background-color : white;
+  text-align: center;
 }
 
 #result > div {
@@ -130,6 +189,10 @@ h1:first-letter {
   text-align : center;
   margin-right : 2em;
   margin-bottom : 1em;
+}
+
+#footer{
+  background-color : #5d83a0;
 }
 
 img[src='bliss/'] {

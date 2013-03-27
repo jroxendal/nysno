@@ -18,12 +18,32 @@
     <div class="front">
       <div class="header">
         <h1>NYSNÖ</h1>
+        <h2>Symbolstödd nyhetstext på webben</h2>
+      </div>
+      <div id="nav">
+        <ol>
+          <a href="/">
+            <li>Hem</li>
+          </a>
+          <a href="about.html">
+            <li>Om Nysnö</li>
+          </a>
+          <a href="contact.html">
+            <li>Kontakt</li>
+          </a>
+        </ol>
       </div>
       <div id="content">
+        <p>Här kan du få en text översatt till symboler. Välj vilket språk texten är på och vilket symbolstöd du vill ha. Du kan gå till 8 sidor för att hämta din artikel eller skriva din egen text. Tryck på översätt när du har en text i rutan.</p>
         <form>
           <textarea rows="15"></textarea>
+          <select id="lang_select">
+            <option value="">Symbolspråk</option>
+            <option value="bliss">Bliss</option>
+            <option value="aras">ARASAAAC</option>
+          </select>
           <input class="send" type="submit" value="Översätt" />
-          <input id="get_article" type="submit" value="Hämta artikel" />
+          <input id="get_article" type="submit" value="Gå till 8 SIDOR" />
           <div style="clear:both;"></div>
         </form>
         <div id="result"></div>
@@ -36,10 +56,12 @@
       </div>
     </div>
   </div>
-  <div id="footer"></div>
+  <div id="footer">
+    <p>"NYSNÖ (c) 2012, är ett projekt i samarbete med DART och Göteborgs universitet, finansierat av Promobilia"</p>
+  </div>
   <script id="wordTmpl" type="text/x-jquery-tmpl">
     <div>
-      <div><img src="bliss/${lex[0]}"></div>
+      <div><img src="${$item.lang}/${lex[0]}"></div>
       <div>${text}</div>
     </div>
   </script>

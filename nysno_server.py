@@ -9,6 +9,7 @@ import urllib, json
 from StringIO import StringIO
 from itertools import chain, imap, ifilter
 from urllib import unquote
+from functools import partial
 
 
 
@@ -20,18 +21,18 @@ from find_fwords import wordToBliss
 
 
 
-def getBliss(wd):
+def getBliss(wd, lang = "bliss"):
     req = {"Q": "lookup",
        "ref":"REF",
        "seq":12345,
        "word": wd,
        "langIn":"en",
-       "langOut":"bliss"}
+       "langOut":lang}
     struct = client.get_json(req)
     return [x["repr"].split("/")[-1] for x in struct["arr"] if x["repr"]]
 
 
-def parseKorpResult(result):
+def parseKorpResult(result, lang):
     # output = json.loads(result)
     for struct in result["kwic"]:
         for token in struct["tokens"]:
@@ -43,7 +44,7 @@ def parseKorpResult(result):
                 # get rid of empty and flatten list
                 wordnetlist = list(chain.from_iterable(ifilter(bool, wordnetlist)))
                 # for each wordnet identifier, get an image filname from the ccf server
-                blisslist   = map(getBliss, wordnetlist)
+                blisslist   = map(partial(getBliss, lang=lang), wordnetlist)
                 # get rid of empty and flatten
                 blisslist   = list(chain.from_iterable(ifilter(bool, blisslist)))
 
@@ -56,9 +57,6 @@ def parseKorpResult(result):
     return result
 
 
-def blissMixin(data):
-    return parseKorpResult(data)
-
 
 def application(environ, start_response):
     form = cgi.FieldStorage(fp=environ["wsgi.input"],
@@ -66,7 +64,10 @@ def application(environ, start_response):
                            keep_blank_values=True)
 
     text = json.loads(form["text"].value)
-    output = blissMixin(text)
+    lang = form["lang"].value
+    print "lang", lang
+
+    output = parseKorpResult(text, lang)
     try:
 
         status = '200 OK'

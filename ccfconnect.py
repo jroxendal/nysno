@@ -30,8 +30,9 @@ if __name__ == "__main__":
     req = {"Q": "lookup",
            "ref":"REF",
            "seq":12345,
-           "word":"monday",
+           "word":"water",
            "langIn":"en",
-           "langOut":"bliss"}
+           "langOut":"aras"}
     struct = client.get_json(req)
+    pprint(struct)
     pprint(map(lambda x: x["repr"], struct["arr"]))

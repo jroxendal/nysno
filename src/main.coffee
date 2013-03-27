@@ -66,14 +66,17 @@ window.get = ->
 
             $.ajax
                 url : backend_url,
-                data: {text : korpJson},
+                data:
+                    text : korpJson
+                    lang : $("#lang_select").val() or "bliss"
+
                 type : "POST",
                 dataType : "json",
                 success: (data) ->
                     window.data = data
                     sents = _.flatten _.pluck data.kwic, "tokens"
                     $("#result").html(
-                      $("#wordTmpl").tmpl(sents)
+                      $("#wordTmpl").tmpl(sents, {lang : $("#lang_select").val() or "bliss"})
                       )
                     $("body").removeClass("loading")
 

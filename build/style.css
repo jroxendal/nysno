@@ -35,55 +35,114 @@ body {
   border-radius: 2px 2px;
 }
 
-/* line 31, ../src/style.scss */
+/* line 32, ../src/style.scss */
 h1 {
   font-size: 3.5em;
   font-family: 'Love Ya Like A Sister', Helvetica;
   text-align: center;
 }
 
-/* line 37, ../src/style.scss */
+/* line 38, ../src/style.scss */
+h2 {
+  font-size: 2em;
+  font-family: 'Love Ya Like A Sister', Helvetica;
+  text-align: center;
+}
+
+/* line 44, ../src/style.scss */
 h1:first-letter {
   font-size: 1.3em;
 }
 
-/* line 41, ../src/style.scss */
+/* menu */
+/* line 50, ../src/style.scss */
+ol {
+  padding-top: 15px;
+  background-color: #5d83a0;
+  display: block;
+}
+
+/* line 55, ../src/style.scss */
+li {
+  color: black;
+  text-align: center;
+  font-size: 1.7em;
+  font-family: 'Love Ya Like A Sister', Helvetica;
+  display: inline;
+  padding: 5px 10px 0 10px;
+  margin-right: 2px;
+  background-color: white;
+}
+
+/* line 65, ../src/style.scss */
+a {
+  text-decoration: none;
+}
+
+/* line 69, ../src/style.scss */
 #header {
   padding: 15px;
   margin-bottom: 1em;
 }
 
-/* line 47, ../src/style.scss */
+/* line 75, ../src/style.scss */
 [type=submit] {
   display: block;
   float: right;
 }
 
-/* line 55, ../src/style.scss */
+/* line 81, ../src/style.scss */
+#content p {
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+/* line 87, ../src/style.scss */
 #content form {
   width: 80%;
   margin: 0 auto;
   max-width: 500px;
 }
 
-/* line 60, ../src/style.scss */
+/* line 92, ../src/style.scss */
 #content textarea {
   width: 100%;
   font-family: inherit;
 }
 
-/* line 65, ../src/style.scss */
+/* line 97, ../src/style.scss */
 #remote {
   height: 100%;
 }
-/* line 67, ../src/style.scss */
+/* line 99, ../src/style.scss */
 #remote iframe {
   width: 100%;
   height: 100%;
 }
 
+/* line 105, ../src/style.scss */
+#frame {
+  width: 100%;
+  height: 98%;
+  position: absolute;
+}
+
+/* line 111, ../src/style.scss */
+#frame > div {
+  background-color: white;
+  display: block;
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
+/* line 122, ../src/style.scss */
+#frame .header {
+  background-color: #5d83a0;
+}
+
 /* transform */
-/* line 75, ../src/style.scss */
+/* line 128, ../src/style.scss */
 #flip {
   width: 100%;
   height: 98%;
@@ -105,7 +164,7 @@ h1:first-letter {
   -moz-transform-style: preserve-3d;
 }
 
-/* line 87, ../src/style.scss */
+/* line 140, ../src/style.scss */
 #flip > div {
   background-color: white;
   display: block;
@@ -120,7 +179,12 @@ h1:first-letter {
   -moz-backface-visibility: hidden;
 }
 
-/* line 101, ../src/style.scss */
+/* line 152, ../src/style.scss */
+#flip .header {
+  background-color: #5d83a0;
+}
+
+/* line 159, ../src/style.scss */
 #flip .back {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -130,7 +194,7 @@ h1:first-letter {
   z-index: -1;
 }
 
-/* line 106, ../src/style.scss */
+/* line 164, ../src/style.scss */
 #flip.flipped {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -139,7 +203,7 @@ h1:first-letter {
   transform: rotateY(180deg);
 }
 
-/* line 110, ../src/style.scss */
+/* line 168, ../src/style.scss */
 .corner {
   position: fixed;
   opacity: .5;
@@ -160,7 +224,7 @@ h1:first-letter {
   transform: scale(0.7);
 }
 
-/* line 119, ../src/style.scss */
+/* line 177, ../src/style.scss */
 .corner:hover {
   opacity: .75;
   -webkit-transition: opacity 1s;
@@ -169,12 +233,13 @@ h1:first-letter {
   transition: opacity 1s;
 }
 
-/* line 124, ../src/style.scss */
+/* line 182, ../src/style.scss */
 #content {
   background-color: white;
+  text-align: center;
 }
 
-/* line 128, ../src/style.scss */
+/* line 187, ../src/style.scss */
 #result > div {
   display: inline-block;
   text-align: center;
@@ -182,12 +247,17 @@ h1:first-letter {
   margin-bottom: 1em;
 }
 
-/* line 135, ../src/style.scss */
+/* line 194, ../src/style.scss */
+#footer {
+  background-color: #5d83a0;
+}
+
+/* line 198, ../src/style.scss */
 img[src='bliss/'] {
   display: none;
 }
 
-/* line 139, ../src/style.scss */
+/* line 202, ../src/style.scss */
 .loading {
   cursor: wait;
 }
