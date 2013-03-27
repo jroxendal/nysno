@@ -261,3 +261,8 @@ img[src='bliss/'] {
 .loading {
   cursor: wait;
 }
+
+/* line 205, ../src/style.scss */
+#lang_select {
+  float: left;
+}
