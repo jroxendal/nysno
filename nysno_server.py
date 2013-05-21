@@ -15,7 +15,7 @@ from functools import partial
 
 from lookup import getSynsetSafe
 from ccfconnect import CCFClient
-client = CCFClient("ccf.conceptcoding.org", 8899)
+client = CCFClient("ccf.femtioprocent.com", 8899)
 
 from find_fwords import wordToBliss
 

@@ -26,7 +26,8 @@ class CCFClient(object):
 
 
 if __name__ == "__main__":
-    client = CCFClient("ccf.conceptcoding.org", 8899)
+    # client = CCFClient("ccf.conceptcoding.org", 8899)
+    client = CCFClient("ccf.femtioprocent.com", 8899)
     req = {"Q": "lookup",
            "ref":"REF",
            "seq":12345,

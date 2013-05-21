@@ -1,0 +1,55 @@
+-# coding: utf-8
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Nysnö</title>
+
+<!--<link href="reset.css" type="text/css" rel="stylesheet" />-->
+<link href="build/style.css" type="text/css" rel="stylesheet" />
+<link href='http://fonts.googleapis.com/css?family=Love+Ya+Like+A+Sister' rel='stylesheet' type='text/css'>
+<script src="lib/jquery.js"></script>
+<script src="lib/jquery-ui-1.9pre.js"></script>
+<script src="lib/underscore.js"></script>
+<script src="lib/jquery.tmpl.js"></script>
+<script src="lib/xml2json.js"></script>
+
+<script src="build/main.js"></script>
+
+
+</head>
+%body
+
+  #frame
+    .front
+      .header
+        %h1 NYSNÖ
+        %h2 Symbolstödd nyhetstext på webben
+
+      #nav
+        %ol
+          %a(href="index.html")
+            %li Hem
+          %a(href="about.html")
+            %li Om Nysnö
+          %a(href="/")
+            %li Kontakt
+
+      #content
+        %p
+          %a(href="mailto:sandra.derbring@vgregion.se")
+            Sandra Derbring, datalingvist
+        %p
+          %a(href="mailto:johan.roxendal@svenska.gu.se")
+            Johan Roxendal, systemutvecklare
+        %p
+          %a(href="mailto:katarina.muhlenbock@vgregion.se")
+            Katarina Mühlenbock, datalingvist
+        %p
+          %a(href="mailto:mats.lundalv@vgregion.se")
+            Mats Lundälv, datapedagog
+
+  #footer
+    %p NYSNÖ (c) 2012, är ett projekt i samarbete med DART och Göteborgs universitet, finansierat av Promobilia
+
+</html>
