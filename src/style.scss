@@ -82,6 +82,20 @@ a{
     max-width : 500px;
     margin : 0 auto;
   }
+
+}
+.about {
+  text-align : left;
+  padding : 2em;
+  background-color : white;
+  p {
+    max-width : 500px;
+  }
+  h2 {
+    font-size : large;
+    text-align : left;
+  }
+  padding-bottom : 2em;
 }
 
 #content form {
