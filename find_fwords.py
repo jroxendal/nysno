@@ -1,13 +1,16 @@
 
 def extractType(line):
 
+    resultlist = []
+
     sw = line.split('|')
     for s in sw:
         if s != sw[0] and s != sw[1] and s != sw[2]:
             slist = s.split('\t')
             result = slist[len(slist) - 1].strip()
+	    resultlist.append(result)
 
-    return result
+    return resultlist
 
 
 def createLexs(flist):
@@ -15,6 +18,7 @@ def createLexs(flist):
     #Create two dicts
     cc_bliss = {}
     cc_swe = {}
+    cc_aras = {}
 
     for line in flist:
         line = line.strip()
@@ -39,19 +43,34 @@ def createLexs(flist):
                 else:
                     cc_bliss[cc] = [bliss]
 
-    return cc_swe, cc_bliss
+	    #Aras file(s)
+            if things[1] == '20,0 | 20':
+                aras = extractType(line)
+                if cc_aras.has_key(cc):
+                    cc_aras[cc].append(aras)
+                else:
+                    cc_aras[cc] = [aras]
+
+    return cc_swe, cc_bliss, cc_aras
 
 
 
-def matchTypes(cc_swe, cc_bliss):
+def matchTypes(cc_swe, cc_bliss, cc_aras):
 
     swe_bliss = {}
+    swe_aras = {}
 
     for k in cc_swe.keys():
-        swevalue = cc_swe[k]
+	swevalue = []
+	for x in cc_swe[k]:
+		for y in x:
+			swevalue.append(y)
 
         if cc_bliss.has_key(k):
-            blissvalue = cc_bliss[k]
+	    blissvalue = []
+	    for x in cc_bliss[k]:
+		for y in x:
+			blissvalue.append(y)
 
             for i in swevalue:
                 if swe_bliss.has_key(i):
@@ -63,12 +82,29 @@ def matchTypes(cc_swe, cc_bliss):
                         swe_bliss[i].append(b)
 
 
-    return swe_bliss
+        if cc_aras.has_key(k):
+	    arasvalue = []
+	    for x in cc_aras[k]:
+		for y in x:
+			arasvalue.append(y)
+
+            for i in swevalue:
+                if swe_aras.has_key(i):
+                    for b in arasvalue:
+                        swe_aras[i].append(b)
+                else:
+                    swe_aras[i] = []
+                    for b in arasvalue:
+                        swe_aras[i].append(b)
+
+
+    return swe_bliss, swe_aras
 
 
 flist = open('merged_cro_120702.txt', 'r')
-swelex, blisslex = createLexs(flist)
-swebliss = matchTypes(swelex, blisslex)
+swelex, blisslex, araslex = createLexs(flist)
+swebliss, swearas = matchTypes(swelex, blisslex, araslex)
+
 def wordToBliss(word):
     return swebliss.get(word)
 
