@@ -49,20 +49,29 @@ h2 {
   text-align: center;
 }
 
-/* line 44, ../src/style.scss */
+/* line 43, ../src/style.scss */
+h3 {
+  font-size: 1em;
+  font-weight: bold;
+  font-family: 'Love Ya Like A Sister', Helvetica;
+  margin-top: 1.3em;
+  margin-bottom: 5px;
+}
+
+/* line 51, ../src/style.scss */
 h1:first-letter {
   font-size: 1.3em;
 }
 
 /* menu */
-/* line 50, ../src/style.scss */
+/* line 57, ../src/style.scss */
 ol {
   padding-top: 15px;
   background-color: #5d83a0;
   display: block;
 }
 
-/* line 55, ../src/style.scss */
+/* line 62, ../src/style.scss */
 li {
   color: black;
   text-align: center;
@@ -74,83 +83,83 @@ li {
   background-color: white;
 }
 
-/* line 65, ../src/style.scss */
+/* line 72, ../src/style.scss */
 a {
   text-decoration: none;
 }
 
-/* line 69, ../src/style.scss */
+/* line 76, ../src/style.scss */
 #header {
   padding: 15px;
   margin-bottom: 1em;
 }
 
-/* line 74, ../src/style.scss */
+/* line 81, ../src/style.scss */
 [type=submit] {
   display: block;
   float: right;
 }
 
-/* line 80, ../src/style.scss */
+/* line 87, ../src/style.scss */
 #content p {
   max-width: 500px;
   margin: 0 auto;
 }
 
-/* line 87, ../src/style.scss */
+/* line 94, ../src/style.scss */
 .expl {
   margin: 2em auto;
   text-align: left;
 }
 
-/* line 91, ../src/style.scss */
+/* line 98, ../src/style.scss */
 .about, .contact {
   line-height: 1.3;
   padding: 2em;
   background-color: white;
   padding-bottom: 2em;
 }
-/* line 95, ../src/style.scss */
+/* line 102, ../src/style.scss */
 .about p, .contact p {
   max-width: 500px;
 }
-/* line 98, ../src/style.scss */
+/* line 105, ../src/style.scss */
 .about h2, .contact h2 {
   font-size: large;
   text-align: left;
 }
 
-/* line 105, ../src/style.scss */
+/* line 112, ../src/style.scss */
 #content form {
   width: 80%;
   margin: 0 auto;
   max-width: 500px;
 }
 
-/* line 110, ../src/style.scss */
+/* line 117, ../src/style.scss */
 #content textarea {
   width: 100%;
   font-family: inherit;
 }
 
-/* line 115, ../src/style.scss */
+/* line 122, ../src/style.scss */
 #remote {
   height: 100%;
 }
-/* line 117, ../src/style.scss */
+/* line 124, ../src/style.scss */
 #remote iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 123, ../src/style.scss */
+/* line 130, ../src/style.scss */
 #frame {
   width: 100%;
   height: 98%;
   position: absolute;
 }
 
-/* line 129, ../src/style.scss */
+/* line 136, ../src/style.scss */
 #frame > div {
   background-color: white;
   display: block;
@@ -159,13 +168,13 @@ a {
   height: 100%;
 }
 
-/* line 140, ../src/style.scss */
+/* line 147, ../src/style.scss */
 #frame .header {
   background-color: #5d83a0;
 }
 
 /* transform */
-/* line 146, ../src/style.scss */
+/* line 153, ../src/style.scss */
 #flip {
   width: 100%;
   height: 98%;
@@ -187,7 +196,7 @@ a {
   -moz-transform-style: preserve-3d;
 }
 
-/* line 158, ../src/style.scss */
+/* line 165, ../src/style.scss */
 #flip > div {
   background-color: white;
   display: block;
@@ -202,12 +211,12 @@ a {
   -moz-backface-visibility: hidden;
 }
 
-/* line 170, ../src/style.scss */
+/* line 177, ../src/style.scss */
 #flip .header {
   background-color: #5d83a0;
 }
 
-/* line 177, ../src/style.scss */
+/* line 184, ../src/style.scss */
 #flip .back {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -217,7 +226,7 @@ a {
   z-index: -1;
 }
 
-/* line 182, ../src/style.scss */
+/* line 189, ../src/style.scss */
 #flip.flipped {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -226,7 +235,7 @@ a {
   transform: rotateY(180deg);
 }
 
-/* line 186, ../src/style.scss */
+/* line 193, ../src/style.scss */
 .corner {
   position: fixed;
   opacity: .5;
@@ -247,7 +256,7 @@ a {
   transform: scale(0.7);
 }
 
-/* line 195, ../src/style.scss */
+/* line 202, ../src/style.scss */
 .corner:hover {
   opacity: .75;
   -webkit-transition: opacity 1s;
@@ -256,18 +265,18 @@ a {
   transition: opacity 1s;
 }
 
-/* line 200, ../src/style.scss */
+/* line 207, ../src/style.scss */
 #content {
   background-color: white;
 }
 
-/* line 204, ../src/style.scss */
+/* line 211, ../src/style.scss */
 .legend {
   margin-top: 2em !important;
   width: 330px;
 }
 
-/* line 209, ../src/style.scss */
+/* line 216, ../src/style.scss */
 #result > div {
   display: inline-block;
   text-align: center;
@@ -275,22 +284,22 @@ a {
   margin-bottom: 1em;
 }
 
-/* line 216, ../src/style.scss */
+/* line 223, ../src/style.scss */
 #footer {
   background-color: #5d83a0;
 }
 
-/* line 220, ../src/style.scss */
+/* line 227, ../src/style.scss */
 img[src='bliss/'] {
   display: none;
 }
 
-/* line 224, ../src/style.scss */
+/* line 231, ../src/style.scss */
 .loading {
   cursor: wait;
 }
 
-/* line 227, ../src/style.scss */
+/* line 234, ../src/style.scss */
 #lang_select {
   float: left;
 }
