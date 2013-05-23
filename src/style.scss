@@ -92,8 +92,9 @@ a{
 }
 
 .expl {
-  margin : 2em auto;
+  margin : 2em auto !important;
   text-align : left;
+  line-height: 1.3;
 }
 .about, .contact {
   line-height : 1.3;

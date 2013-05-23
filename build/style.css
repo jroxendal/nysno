@@ -108,58 +108,59 @@ a {
 
 /* line 94, ../src/style.scss */
 .expl {
-  margin: 2em auto;
+  margin: 2em auto !important;
   text-align: left;
+  line-height: 1.3;
 }
 
-/* line 98, ../src/style.scss */
+/* line 99, ../src/style.scss */
 .about, .contact {
   line-height: 1.3;
   padding: 2em;
   background-color: white;
   padding-bottom: 2em;
 }
-/* line 102, ../src/style.scss */
+/* line 103, ../src/style.scss */
 .about p, .contact p {
   max-width: 500px;
 }
-/* line 105, ../src/style.scss */
+/* line 106, ../src/style.scss */
 .about h2, .contact h2 {
   font-size: large;
   text-align: left;
 }
 
-/* line 112, ../src/style.scss */
+/* line 113, ../src/style.scss */
 #content form {
   width: 80%;
   margin: 0 auto;
   max-width: 500px;
 }
 
-/* line 117, ../src/style.scss */
+/* line 118, ../src/style.scss */
 #content textarea {
   width: 100%;
   font-family: inherit;
 }
 
-/* line 122, ../src/style.scss */
+/* line 123, ../src/style.scss */
 #remote {
   height: 100%;
 }
-/* line 124, ../src/style.scss */
+/* line 125, ../src/style.scss */
 #remote iframe {
   width: 100%;
   height: 100%;
 }
 
-/* line 130, ../src/style.scss */
+/* line 131, ../src/style.scss */
 #frame {
   width: 100%;
   height: 98%;
   position: absolute;
 }
 
-/* line 136, ../src/style.scss */
+/* line 137, ../src/style.scss */
 #frame > div {
   background-color: white;
   display: block;
@@ -168,13 +169,13 @@ a {
   height: 100%;
 }
 
-/* line 147, ../src/style.scss */
+/* line 148, ../src/style.scss */
 #frame .header {
   background-color: #5d83a0;
 }
 
 /* transform */
-/* line 153, ../src/style.scss */
+/* line 154, ../src/style.scss */
 #flip {
   width: 100%;
   height: 98%;
@@ -196,7 +197,7 @@ a {
   -moz-transform-style: preserve-3d;
 }
 
-/* line 165, ../src/style.scss */
+/* line 166, ../src/style.scss */
 #flip > div {
   background-color: white;
   display: block;
@@ -211,12 +212,12 @@ a {
   -moz-backface-visibility: hidden;
 }
 
-/* line 177, ../src/style.scss */
+/* line 178, ../src/style.scss */
 #flip .header {
   background-color: #5d83a0;
 }
 
-/* line 184, ../src/style.scss */
+/* line 185, ../src/style.scss */
 #flip .back {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -226,7 +227,7 @@ a {
   z-index: -1;
 }
 
-/* line 189, ../src/style.scss */
+/* line 190, ../src/style.scss */
 #flip.flipped {
   -webkit-transform: rotateY(180deg);
   -moz-transform: rotateY(180deg);
@@ -235,7 +236,7 @@ a {
   transform: rotateY(180deg);
 }
 
-/* line 193, ../src/style.scss */
+/* line 194, ../src/style.scss */
 .corner {
   position: fixed;
   opacity: .5;
@@ -256,7 +257,7 @@ a {
   transform: scale(0.7);
 }
 
-/* line 202, ../src/style.scss */
+/* line 203, ../src/style.scss */
 .corner:hover {
   opacity: .75;
   -webkit-transition: opacity 1s;
@@ -265,18 +266,18 @@ a {
   transition: opacity 1s;
 }
 
-/* line 207, ../src/style.scss */
+/* line 208, ../src/style.scss */
 #content {
   background-color: white;
 }
 
-/* line 211, ../src/style.scss */
+/* line 212, ../src/style.scss */
 .legend {
   margin-top: 2em !important;
   width: 330px;
 }
 
-/* line 216, ../src/style.scss */
+/* line 217, ../src/style.scss */
 #result > div {
   display: inline-block;
   text-align: center;
@@ -284,22 +285,22 @@ a {
   margin-bottom: 1em;
 }
 
-/* line 223, ../src/style.scss */
+/* line 224, ../src/style.scss */
 #footer {
   background-color: #5d83a0;
 }
 
-/* line 227, ../src/style.scss */
+/* line 228, ../src/style.scss */
 img[src='bliss/'] {
   display: none;
 }
 
-/* line 231, ../src/style.scss */
+/* line 232, ../src/style.scss */
 .loading {
   cursor: wait;
 }
 
-/* line 234, ../src/style.scss */
+/* line 235, ../src/style.scss */
 #lang_select {
   float: left;
 }
