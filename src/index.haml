@@ -56,7 +56,7 @@
   :plain
     <script id="wordTmpl" type="text/x-jquery-tmpl">
       <div>
-        <div><img src="${$item.lang}/${lex[0]}"></div>
+        <div><img src="${$item.lang}/${$.isArray(lex[0]) ? lex[0][0] : lex[0]}"></div>
         <div>${text}</div>
       </div>
     </script>
