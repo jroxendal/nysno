@@ -108,6 +108,12 @@ swebliss, swearas = matchTypes(swelex, blisslex, araslex)
 def wordToBliss(word):
     return swebliss.get(word)
 
+def translate(word, lang="bliss"):
+    if lang == "bliss":
+        return swebliss.get(word)
+    if lang == "aras":
+        return arasbliss.get(word)
+
 if __name__ == "__main__":
 
     wordlist = ['hur.vb.01', 'var.vb.01', 'mig.nn.03', 'sig.pnm.02', 'eller.prep.02', 'endera.vb.01']

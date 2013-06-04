@@ -17,7 +17,7 @@ from lookup import getSynsetSafe
 from ccfconnect import CCFClient
 client = CCFClient("ccf.femtioprocent.com", 8899)
 
-from find_fwords import wordToBliss
+from find_fwords import translate
 
 
 
@@ -50,7 +50,7 @@ def parseKorpResult(result, lang):
 
                 if not blisslist and saldolist:
                     wdlist = map(lambda x: x.split(".")[0], saldolist)
-                    blisslist = map(wordToBliss, wdlist)
+                    blisslist = map(partial(translate, lang=lang), wdlist)
 
 
                 token[attr] = blisslist
