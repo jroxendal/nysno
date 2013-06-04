@@ -112,7 +112,7 @@ def translate(word, lang="bliss"):
     if lang == "bliss":
         return swebliss.get(word)
     if lang == "aras":
-        return arasbliss.get(word)
+        return swearas.get(word)
 
 if __name__ == "__main__":
 
